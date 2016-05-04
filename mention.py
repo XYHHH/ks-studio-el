@@ -5,6 +5,7 @@ class Mention:
         self.mesh_id = mesh_id
         self.wid = wid
         self.chebi_id = chebi_id
+        self.name = ''
 
     @staticmethod
     def find_conflict_mention(cur_mention, mention_list):

@@ -46,10 +46,20 @@ class MedLink:
 
         merged_mention_list.sort(key=lambda x: x.span[0])
 
+        for mention in merged_mention_list:
+            mention.name = text[mention.span[0]:mention.span[1] + 1]
+
         if self.wiki_link.tfidf:
             self.wiki_link.link_all(text, merged_mention_list)
         else:
             self.__link_mention_to_wiki(text, merged_mention_list)
+
+        for mention in merged_mention_list:
+            if mention.mesh_id or mention.chebi_id > -1:
+                for mention1 in merged_mention_list:
+                    if mention.name == mention1.name:
+                        mention1.mesh_id = mention.mesh_id
+                        mention1.chebi_id = mention.chebi_id
 
         mesh_idx_dict, wiki_idx_dict, chebi_idx_dict, idx_list = MedLink.__asign_indices(merged_mention_list)
         # print wiki_idx_dict
