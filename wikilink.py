@@ -27,10 +27,18 @@ class WikiLink:
         if not self.tfidf:
             return None
 
+        name_expantion_dict = dict()
+
         name_results = dict()
-        for mention in mentions:
+        for i, mention in enumerate(mentions):
             if not mention.mesh_id and mention.chebi_id < 0:
-                name_results[text[mention.span[0]:mention.span[1] + 1]] = -1
+                cur_name = text[mention.span[0]:mention.span[1] + 1]
+                if i > 0:
+                    exp_name = WikiLink.__try_expand(text, mention, mentions[i - 1])
+                    if exp_name:
+                        name_expantion_dict[cur_name.lower()] = exp_name.lower()
+                name_results[cur_name.lower()] = -1
+        # print name_expantion_dict
 
         context_tfidf = self.tfidf.get_tfidf_from_text(text)
         for name in name_results.keys():
@@ -42,6 +50,9 @@ class WikiLink:
         for mention in mentions:
             if (not mention.mesh_id) and mention.chebi_id < 0:
                 cur_name = text[mention.span[0]:mention.span[1] + 1].lower()
+                exp_name = name_expantion_dict.get(cur_name, None)
+                if exp_name:
+                    cur_name = exp_name
                 mention.wid = name_results.get(cur_name, -1)
                 # print cur_name, mention.wid
 
@@ -67,7 +78,11 @@ class WikiLink:
                     return -1
             return result_wid
 
-        max_sim = -1
+        sum_cnts = 0.0
+        for i in xrange(beg_idx, end_idx):
+            sum_cnts += self.cnts[i]
+
+        max_score = -1
         for i in xrange(beg_idx, end_idx):
             cur_wid = self.candidates[i]
             wiki_info = self.wiki_info.get_info(cur_wid)
@@ -77,9 +92,44 @@ class WikiLink:
 
                 candidate_tfidf = self.tfidf.get_tfidf_from_text(wiki_info[1].decode('utf-8'))
                 sim = TfIdf.sim(candidate_tfidf, context_tfidf)
+                # if sname == 'elisa' or sname == 'sfn':
+                #     print cur_wid, wiki_info[0], sim, self.cnts[i], sum_cnts, self.cnts[i] / sum_cnts
                 # print cur_wid, wiki_info[0], sim
-                if sim > max_sim:
-                    max_sim = sim
+                # score = sim + 0.0 * self.cnts[i] / sum_cnts
+                score = sim
+                if score > max_score:
+                    max_score = score
                     result_wid = cur_wid
 
         return result_wid
+
+    @staticmethod
+    def __try_expand(text, mention, prev_mention):
+        if mention.span[0] == 0 or mention.span[1] == len(text) - 1:
+            return None
+        if text[mention.span[0] - 1] != '(' or text[mention.span[1] + 1] != ')':
+            return None
+        if prev_mention.span[1] + 3 < mention.span[0]:
+            return None
+
+        cur_name = text[mention.span[0]:mention.span[1] + 1]
+        prev_name = text[prev_mention.span[0]:prev_mention.span[1] + 1]
+        if cur_name.isupper() and WikiLink.__is_acronym(cur_name, prev_name):
+            return prev_name.lower()
+
+    @staticmethod
+    def __is_acronym(name0, name1):
+        if name0[0].lower() != name1[0].lower():
+            return False
+
+        pos = 0
+        len1 = len(name1)
+        for ch in name0:
+            while pos < len1:
+                if ch.lower() == name1[pos].lower():
+                    pos += 1
+                    break
+                pos += 1
+            if pos == len1:
+                return False
+        return True

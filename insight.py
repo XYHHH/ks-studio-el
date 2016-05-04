@@ -19,8 +19,6 @@ def main():
     word_idf_file = 'e:/el/tmpres/demo/word_idf.txt'
 
     tfidf = TfIdf(word_idf_file)
-    print tfidf.get_idf('acid')
-    print tfidf.get_idf('football')
 
     wiki_info = WikiInfo(wiki_info_file, links_file, description_file)
     wiki_link = WikiLink(wiki_candidates_file, wiki_info, tfidf)
@@ -34,10 +32,11 @@ def main():
     pos = input_file.rfind('/')
     file_name = input_file[pos + 1:]
     ner_result_file = os.path.join('output', file_name + '.ner')
-    merged_result_list = mentiondetection.clean_ner_result(ner_result_file)
+    merged_mention_list = mentiondetection.clean_ner_result(ner_result_file)
 
-    wiki_link.link_all(doc_text, merged_result_list)
-    for mention in merged_result_list:
+    merged_mention_list.sort(key=lambda x: x.span[0])
+    wiki_link.link_all(doc_text, merged_mention_list)
+    for mention in merged_mention_list:
         if (not mention.mesh_id) and mention.chebi_id < 0 < mention.wid:
             cur_name = doc_text[mention.span[0]:mention.span[1] + 1].lower()
             print cur_name, mention.wid, wiki_info.get_info(mention.wid)[0]

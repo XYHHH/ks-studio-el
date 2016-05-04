@@ -43,6 +43,8 @@ class MedLink:
         Mention.merge_mention_list(mention_detection_result, merged_mention_list)
         Mention.merge_mention_list(mesh_mention_list, merged_mention_list)
 
+        merged_mention_list.sort(key=lambda x: x.span[0])
+
         if self.wiki_link.tfidf:
             self.wiki_link.link_all(text, merged_mention_list)
         else:
