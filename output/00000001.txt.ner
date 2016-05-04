@@ -1,0 +1,299 @@
+	34109	34111	PEG	ORG
+	32831	32833	SFN	ORG
+	32913	32915	SFN	ORG
+	33136	33138	SFN	ORG
+	33383	33385	SFN	ORG
+	33505	33507	SFN	ORG
+	33606	33608	SFN	ORG
+	33764	33766	SFN	ORG
+	34098	34100	SFN	ORG
+	34246	34248	SFN	ORG
+	11485	11488	GNAT	ORG
+	9966	9974	Schroeter	PER
+	10894	10902	Schroeter	PER
+	19631	19642	 PegIFN/RBV 	ORG
+	20868	20879	 PegIFN/RBV 	ORG
+	20888	20899	 PegIFN/RBV 	ORG
+	18900	18902	MVV	ORG
+	18434	18439	Jordan	GPE
+	19108	19113	Jordan	GPE
+	1080	1083	FSIQ	ORG
+	1219	1222	FSIQ	ORG
+	356	358	IIV	ORG
+	406	408	IIV	ORG
+	1851	1854	HCMV	ORG
+	2061	2064	HCMV	ORG
+	2833	2836	HCMV	ORG
+	30890	30892	PRP	GPE
+	31011	31013	PRP	GPE
+	31467	31469	PRP	GPE
+	32698	32700	PRP	GPE
+	29595	29597	HDI	ORG
+	29688	29690	HDI	ORG
+	32252	32254	PRP	ORG
+	32511	32513	PRP	ORG
+	7195	7208	DOX-treated WT	PER
+	6726	6728	DOX	ORG
+	6830	6832	DOX	ORG
+	7759	7761	DOX	ORG
+	9157	9159	TNF	ORG
+	19790	19792	NVR	ORG
+	19983	19985	NVR	ORG
+	20143	20145	NVR	ORG
+	20737	20739	NVR	ORG
+	20024	20026	AUC	ORG
+	20104	20106	ROC	GPE
+	20134	20136	SVR	ORG
+	20350	20352	AUC	ORG
+	19845	19847	SVR	ORG
+	19962	19964	SVR	ORG
+	20209	20211	ROC	GPE
+	586	618	Wechsler Adult Intelligence Scale	ORG
+	621	634	Fourth Edition	ORG
+	650	670	Wechsler Memory Scale	ORG
+	673	686	Fourth Edition	ORG
+	1057	1077	WAIS-IV Full Scale IQ	ORG
+	1474	1477	FSIQ	ORG
+	2349	2352	HCMV	ORG
+	2397	2400	RFLP	ORG
+	2497	2499	PCR	ORG
+	2536	2539	HCMV	ORG
+	2740	2743	HCMV	ORG
+	3134	3137	HCMV	ORG
+	3415	3418	HCMV	ORG
+	4239	4245	Fourier	PER
+	5084	5090	Medline	GPE
+	5096	5101	Embase	GPE
+	6504	6505	NF	GPE
+	6657	6658	NF	GPE
+	6713	6723	Doxorubicin	PER
+	6788	6789	WT	ORG
+	7172	7173	WT	GPE
+	8167	8169	RNA	ORG
+	8437	8440	VEGF	ORG
+	8481	8483	TNF	ORG
+	8544	8546	TNF	ORG
+	8680	8682	TNF	ORG
+	8787	8788	NF	GPE
+	8885	8889	DNase	ORG
+	9977	9982	Migula	PER
+	10168	10170	EPA	ORG
+	10386	10388	EPA	ORG
+	12031	12037	Alanine	PER
+	12426	12429	GNAT	ORG
+	12813	12817	Avian	ORG
+	14621	14624	CdSe	ORG
+	14684	14686	BSA	GPE
+	16387	16393	Ehrlich	PER
+	17500	17501	OR	ORG
+	18571	18585	Northern Jordan	LOC
+	18591	18603	Jordan Valley	GPE
+	18642	18646	ELISA	ORG
+	18786	18788	MVV	ORG
+	18947	18950	CAEV	ORG
+	20384	20386	AUC	ORG
+	21145	21155	Tetraselmis	PER
+	22180	22196	Wiley Periodicals	PER
+	22204	22207	BAHA	ORG
+	22567	22570	BAHA	ORG
+	25265	25271	Ireland	GPE
+	25549	25553	NVivo	ORG
+	26864	26866	ADH	ORG
+	26963	26972	 NADH/NAD(	PER
+	27346	27348	ADH	ORG
+	27796	27804	Michaelis	PER
+	28076	28078	YPD	ORG
+	28351	28353	ADH	ORG
+	28420	28422	YPD	ORG
+	29387	29389	PLA	ORG
+	29495	29498	SPLA	ORG
+	30678	30687	BACKGROUND	ORG
+	30689	30693	Elbow	ORG
+	31687	31699	PRP. Patients	ORG
+	33047	33048	UV	ORG
+	34017	34019	PEG	ORG
+	34174	34175	UV	ORG
+	5662	5668	Ca(2+)	Chemical	-1
+	5722	5728	Ca(2+)	Chemical	-1
+	5971	5972	C	Chemical	-1
+	6043	6049	Ca(2+)	Chemical	-1
+	6445	6451	Ca(2+)	Chemical	-1
+	6713	6724	Doxorubicin	Chemical	-1
+	6726	6729	DOX	Chemical	-1
+	6830	6833	DOX	Chemical	-1
+	7008	7011	DOX	Chemical	-1
+	7195	7198	DOX	Chemical	-1
+	7759	7762	DOX	Chemical	-1
+	10240	10254	crystal violet	Chemical	MESH:D005840
+	10424	10438	crystal violet	Chemical	MESH:D005840
+	11029	11036	proline	Chemical	CHEBI:26271
+	11092	11093	N	Chemical	-1
+	11128	11135	proline	Chemical	CHEBI:26271
+	11143	11168	l-azetidine-2-carboxylate	Chemical	-1
+	11242	11251	l-proline	Chemical	CHEBI:60039
+	11256	11266	l-arginine	Chemical	MESH:D001120
+	11293	11323	l-Δ(1)-pyrroline-5-carboxylate	Chemical	CHEBI:371
+	11340	11350	l-arginine	Chemical	MESH:D001120
+	11375	11387	nitric oxide	Chemical	MESH:D009569
+	11464	11465	N	Chemical	-1
+	11684	11707	cis-4-hydroxy-l-proline	Chemical	CHEBI:63727
+	11886	11891	amide	Chemical	CHEBI:32988
+	11895	11898	Asn	Chemical	-1
+	11906	11909	Leu	Chemical	-1
+	11932	11942	acetyl-CoA	Chemical	-1
+	11985	11990	amide	Chemical	CHEBI:32988
+	11994	11997	Phe	Chemical	-1
+	12023	12026	Asn	Chemical	-1
+	12031	12038	Alanine	Chemical	-1
+	12055	12058	Asn	Chemical	-1
+	12091	12097	sulfur	Chemical	MESH:D013455
+	12101	12111	acetyl-CoA	Chemical	-1
+	12275	12278	Asn	Chemical	-1
+	12458	12468	amino acid	Chemical	MESH:D000596
+	12515	12545	l-Δ(1)-pyrroline-5-carboxylate	Chemical	CHEBI:371
+	14581	14594	17β-estradiol	Chemical	-1
+	14621	14625	CdSe	Chemical	-1
+	14979	14986	bismuth	Chemical	MESH:D001729
+	14994	15000	carbon	Chemical	MESH:D002244
+	15040	15047	cadmium	Chemical	MESH:D002104
+	15054	15060	Cd(2+)	Chemical	-1
+	15733	15741	ammonium	Chemical	MESH:D000644
+	15757	15762	sugar	Chemical	-1
+	15900	15907	alcohol	Chemical	MESH:D000431
+	15908	15913	ester	Chemical	CHEBI:35701
+	16039	16044	Sugar	Chemical	-1
+	16089	16097	nitrogen	Chemical	MESH:D009584
+	16177	16193	ammonium sulfate	Chemical	MESH:D000645
+	16211	16218	alcohol	Chemical	MESH:D000431
+	16245	16253	ammonium	Chemical	MESH:D000644
+	16422	16436	acetate esters	Chemical	CHEBI:47622
+	16463	16471	ammonium	Chemical	MESH:D000644
+	16510	16521	acyl esters	Chemical	-1
+	16530	16538	ammonium	Chemical	MESH:D000644
+	16560	16571	acyl esters	Chemical	-1
+	16611	16618	alcohol	Chemical	MESH:D000431
+	16619	16623	acyl	Chemical	-1
+	19467	19487	pegylated interferon	Chemical	MESH:C417083
+	19493	19502	ribavirin	Chemical	MESH:D012254
+	19906	19916	tryptophan	Chemical	MESH:D014364
+	20038	20048	tryptophan	Chemical	MESH:D014364
+	20298	20308	tryptophan	Chemical	MESH:D014364
+	20315	20324	glutamate	Chemical	MESH:D018698
+	20325	20333	arginine	Chemical	CHEBI:29016
+	20505	20526	γ-glutamyl dipeptides	Chemical	-1
+	20528	20541	glutamic acid	Chemical	MESH:D018698
+	20543	20555	5-oxoproline	Chemical	MESH:D011761
+	20557	20568	glucosamine	Chemical	MESH:D005944
+	20573	20593	methionine sulfoxide	Chemical	MESH:C013111
+	20627	20652	5-methoxy-3-indoleacetate	Chemical	-1
+	20654	20663	glutamine	Chemical	MESH:D018698
+	20665	20675	kynurenine	Chemical	MESH:D007737
+	20680	20686	lysine	Chemical	CHEBI:25094
+	20822	20832	tryptophan	Chemical	MESH:D014364
+	20960	20971	glutathione	Chemical	MESH:D005978
+	21812	21833	eicosapentaenoic acid	Chemical	MESH:D015118
+	22015	22036	eicosapentaenoic acid	Chemical	MESH:D015118
+	22137	22147	Biotechnol	Chemical	-1
+	22319	22327	titanium	Chemical	MESH:D014025
+	26698	26705	glucose	Chemical	MESH:D005947
+	26725	26738	allyl alcohol	Chemical	MESH:C006463
+	26761	26768	alcohol	Chemical	MESH:D000431
+	26801	26809	acrolein	Chemical	MESH:D000171
+	26938	26950	acetaldehyde	Chemical	MESH:D000079
+	26964	26968	NADH	Chemical	-1
+	26969	26975	NAD(+)	Chemical	-1
+	27022	27035	allyl alcohol	Chemical	MESH:C006463
+	27453	27466	pyrophosphate	Chemical	MESH:C107241
+	27754	27758	zinc	Chemical	MESH:D015032
+	27819	27831	acetaldehyde	Chemical	MESH:D000079
+	27861	27868	ethanol	Chemical	MESH:D000431
+	28115	28123	dextrose	Chemical	MESH:D005947
+	28130	28139	antimycin	Chemical	MESH:C032456
+	28434	28447	allyl alcohol	Chemical	MESH:C006463
+	28943	28952	phosphate	Chemical	MESH:D010710
+	28976	28993	poly(lactic acid)	Chemical	MESH:C010506
+	29334	29367	Three-aminopropyltriethoxy silane	Chemical	-1
+	29372	29380	sorbitol	Chemical	MESH:D013012
+	29533	29593	3-aminopropyltriethoxy silane and hexamethylene diisocyanate	Chemical	-1
+	32817	32829	Sulforaphane	Chemical	-1
+	32831	32834	SFN	Chemical	-1
+	32913	32916	SFN	Chemical	-1
+	33136	33139	SFN	Chemical	-1
+	33383	33386	SFN	Chemical	-1
+	33505	33508	SFN	Chemical	-1
+	33606	33609	SFN	Chemical	-1
+	33764	33767	SFN	Chemical	-1
+	33996	34015	polyethylene glycol	Chemical	MESH:D011092
+	34017	34020	PEG	Chemical	MESH:D011092
+	34098	34101	SFN	Chemical	-1
+	34109	34112	PEG	Chemical	MESH:D011092
+	34246	34249	SFN	Chemical	-1
+
+	1889	1909	congenital infection	Disease	MESH:D007239
+	1971	1980	infection	Disease	MESH:D007239
+	2102	2135	congenital or postnatal infection	Disease	MESH:D007239
+	2349	2363	HCMV infection	Disease	MESH:D003586
+	2872	2894	neurological disorders	Disease	MESH:D009422
+	3195	3215	congenital infection	Disease	MESH:D007239
+	3244	3263	postnatal infection	Disease	MESH:D007239
+	3415	3429	HCMV infection	Disease	MESH:D003586
+	3457	3474	blood coagulation	Disease	MESH:D001778
+	4968	4991	peripheral nerve injury	Disease	MESH:D059348
+	5146	5169	peripheral nerve injury	Disease	MESH:D059348
+	5403	5426	peripheral nerve injury	Disease	MESH:D059348
+	6701	6707	cancer	Disease	MESH:D009369
+	7847	7857	thrombosis	Disease	MESH:D013927
+	7863	7875	inflammation	Disease	MESH:D007249
+	8021	8026	tumor	Disease	MESH:D009369
+	8043	8053	metastasis	Disease	MESH:D009362
+	8099	8104	tumor	Disease	MESH:D009369
+	8202	8215	glioblastomas	Disease	MESH:D005909
+	8255	8261	tumors	Disease	MESH:D009369
+	8297	8302	tumor	Disease	MESH:D009369
+	8647	8652	tumor	Disease	MESH:D009369
+	8844	8850	cancer	Disease	MESH:D009369
+	8901	8906	tumor	Disease	MESH:D009369
+	8988	8993	tumor	Disease	MESH:D009369
+	9028	9033	tumor	Disease	MESH:D009369
+	9176	9181	tumor	Disease	MESH:D009369
+	9276	9281	tumor	Disease	MESH:D009369
+	9381	9387	cancer	Disease	MESH:D009369
+	9399	9405	Cancer	Disease	MESH:D009369
+	9526	9545	hospital infections	Disease	MESH:D003428
+	9942	9964	Pseudomonas aeruginosa	Disease	MESH:D011552
+	18759	18784	British maedi-visna virus	Disease	MESH:D015658
+	18927	18939	encephalitis	Disease	MESH:D004660
+	19263	19282	chronic hepatitis C	Disease	MESH:D019698
+	19870	19877	viremia	Disease	MESH:D014766
+	21231	21252	light emitting diodes	Disease	MESH:D020795
+	21254	21258	LEDs	Disease	MESH:D020795
+	22050	22054	LEDs	Disease	MESH:D020795
+	22281	22293	hearing loss	Disease	MESH:D034381
+	22794	22802	necrosis	Disease	MESH:D009336
+	22804	22826	inflammation/infection	Disease	MESH:D007239
+	22828	22845	hypertrophic scar	Disease	MESH:D017439
+	22851	22863	fixture loss	Disease	MESH:D034381
+	23235	23252	hypertrophic scar	Disease	MESH:D017439
+	25235	25261	national stroke guidelines	Disease	MESH:D020521
+	25417	25423	stroke	Disease	MESH:D020521
+	25740	25766	national stroke guidelines	Disease	MESH:D020521
+	25808	25834	national stroke guidelines	Disease	MESH:D020521
+	25864	25880	community stroke	Disease	MESH:D020521
+	26327	26333	stroke	Disease	MESH:D020521
+	26371	26377	stroke	Disease	MESH:D020521
+	26864	26867	ADH	Disease	MESH:D007177
+	27346	27349	ADH	Disease	MESH:D007177
+	28351	28354	ADH	Disease	MESH:D007177
+	29471	29474	APS	Disease	MESH:C538275
+	30710	30714	pain	Disease	MESH:D010146
+	30774	30806	lateral epicondylar tendinopathy	Disease	MESH:D052256
+	30822	30834	tennis elbow	Disease	MESH:D013716
+	30934	30946	tennis elbow	Disease	MESH:D013716
+	31040	31052	tennis elbow	Disease	MESH:D013716
+	31201	31233	lateral epicondylar tendinopathy	Disease	MESH:D052256
+	31930	31934	pain	Disease	MESH:D010146
+	32092	32096	pain	Disease	MESH:D010146
+	32661	32673	tennis elbow	Disease	MESH:D013716
+	33059	33078	skin carcinogenesis	Disease	MESH:D063646
+	34206	34222	transgenic mouse	Disease	MESH:D004482
+
