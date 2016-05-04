@@ -31,6 +31,7 @@ class WikiLink:
 
         name_results = dict()
         for i, mention in enumerate(mentions):
+            # print text[mention.span[0]:mention.span[1] + 1], mention.mtype
             if not mention.mesh_id and mention.chebi_id < 0:
                 cur_name = text[mention.span[0]:mention.span[1] + 1]
                 if i > 0:

@@ -1112,6 +1112,16 @@
       }
     }, 
     "19": {
+      "wid": 6836056, 
+      "wiki-links": [
+        "antigen", 
+        "hepatitis B virus", 
+        "hepatitis B"
+      ], 
+      "wiki-title": "HBsAg", 
+      "wiki-text": "HBsAg is the surface antigen of the hepatitis B virus (HBV). It indicates current hepatitis B infection."
+    }, 
+    "20": {
       "mesh-name": "Glycoproteins", 
       "wid": 164912, 
       "mesh-tn": [
@@ -1166,7 +1176,7 @@
         "translation (genetics)"
       ]
     }, 
-    "20": {
+    "21": {
       "mesh-name": "Dendritic Cells", 
       "wid": 5682997, 
       "mesh-tn": [
@@ -1282,7 +1292,7 @@
         "CD11c"
       ]
     }, 
-    "21": {
+    "22": {
       "mesh-name": "Blood", 
       "wid": 3997, 
       "mesh-tn": [
@@ -1331,7 +1341,7 @@
         "pulmonary vein"
       ]
     }, 
-    "22": {
+    "23": {
       "mesh-name": "Antigens", 
       "wid": 1915, 
       "mesh-tn": [
@@ -1365,7 +1375,7 @@
         "B-cell receptor"
       ]
     }, 
-    "23": {
+    "24": {
       "mesh-name": "Role", 
       "wid": 19023436, 
       "mesh-tn": [
@@ -1405,7 +1415,7 @@
         "role"
       ]
     }, 
-    "24": {
+    "25": {
       "mesh-name": "Hepatitis B Surface Antigens", 
       "wid": 6836056, 
       "mesh-tn": [
@@ -1456,7 +1466,16 @@
         "hepatitis B"
       ]
     }, 
-    "25": {
+    "26": {
+      "wid": 2589751, 
+      "wiki-links": [
+        "Brownian motion", 
+        "fluorescence"
+      ], 
+      "wiki-title": "Fluorescence correlation spectroscopy", 
+      "wiki-text": "Fluorescence correlation spectroscopy (FCS) is a correlation analysis of fluctuation of the fluorescence intensity. The analysis provides parameters of the physics under the fluctuations. One of the interesting applications of this is an analysis of the concentration fluctuations of fluorescent particles (molecules) in solution. In this application, the fluorescence emitted from a very tiny space in solution containing a small number of fluorescent particles (molecules) is observed. The fluorescence intensity is fluctuating due to Brownian motion of the particles. In other words, the number of the particles in the sub-space defined by the optical system is randomly changing around the average number. The analysis gives the average number of fluorescent particles and average diffusion time, when the particle is passing through the space. Eventually, both the concentration and size of the particle (molecule) are determined. Both parameters are important in biochemical research, biophysics, and chemistry."
+    }, 
+    "27": {
       "mesh-name": "Plasma", 
       "wid": 3532541, 
       "mesh-tn": [
@@ -1533,7 +1552,7 @@
         "plasma (physics)"
       ]
     }, 
-    "26": {
+    "28": {
       "mesh-name": "Fetal Blood", 
       "wid": 2294357, 
       "mesh-tn": [
@@ -1613,7 +1632,15 @@
         "umbilical cord"
       ]
     }, 
-    "27": {
+    "29": {
+      "wid": 95162, 
+      "wiki-links": [
+        ""
+      ], 
+      "wiki-title": "ELISA", 
+      "wiki-text": "The enzyme-linked immunosorbent assay (ELISA) (, ) is a test that uses antibodies and color change to identify a substance."
+    }, 
+    "30": {
       "mesh-name": "In Vitro Techniques", 
       "wid": 2480809, 
       "mesh-tn": [
@@ -1652,7 +1679,7 @@
         "subspecies"
       ]
     }, 
-    "28": {
+    "31": {
       "mesh-name": "Serum", 
       "wid": 538397, 
       "mesh-tn": [
@@ -1703,7 +1730,7 @@
         ""
       ]
     }, 
-    "29": {
+    "32": {
       "mesh-name": "Paralysis", 
       "wid": 7571937, 
       "mesh-tn": [
@@ -1764,7 +1791,7 @@
         "seizure"
       ]
     }, 
-    "30": {
+    "33": {
       "mesh-name": "Poliovirus", 
       "wid": 357756, 
       "mesh-tn": [
@@ -1847,7 +1874,7 @@
         "enterovirus"
       ]
     }, 
-    "31": {
+    "34": {
       "mesh-name": "Orphanages", 
       "wid": 387703, 
       "mesh-tn": [
@@ -1887,7 +1914,63 @@
         "biological"
       ]
     }, 
-    "32": {
+    "35": {
+      "wid": 288126, 
+      "wiki-links": [
+        "Biya River", 
+        "Barnaul", 
+        "krai", 
+        "types of inhabited localities in Russia", 
+        "confluence", 
+        "administrative center", 
+        "Altai Krai", 
+        "Katun River", 
+        "Russia"
+      ], 
+      "wiki-title": "Biysk", 
+      "wiki-text": "Biysk () is a city in Altai Krai, Russia, located on the Biya River not far from its confluence with the Katun River. It is the second largest city of the krai (after Barnaul, the administrative center of the krai). Population:"
+    }, 
+    "36": {
+      "wid": 474112, 
+      "wiki-links": [
+        "Barnaul", 
+        "krai", 
+        "administrative center", 
+        "federal subjects of Russia", 
+        "Russian Census (2010)", 
+        "types of inhabited localities in Russia", 
+        "Kemerovo Oblast", 
+        "Altai Republic", 
+        "Kazakhstan", 
+        "Russia", 
+        "Novosibirsk Oblast"
+      ], 
+      "wiki-title": "Altai Krai", 
+      "wiki-text": "Altai Krai () is a federal subject of Russia (a krai). It borders with, clockwise from the west, Kazakhstan, Novosibirsk and Kemerovo Oblasts, and the Altai Republic. The krai's administrative center is the city of Barnaul. As of the 2010 Census, the population of the krai was\u00a02,419,755."
+    }, 
+    "37": {
+      "wid": 950313, 
+      "wiki-links": [
+        "Soviet Union national ice hockey team", 
+        "ice hockey", 
+        "United States men's national ice hockey team", 
+        "Big Six (hockey)", 
+        "Canada men's national ice hockey team", 
+        "Sweden men's national ice hockey team", 
+        "ice hockey at the 1992 Winter Olympics", 
+        "1992 Men's World Ice Hockey Championships", 
+        "Ice Hockey Federation of Russia", 
+        "Commonwealth of Independent States", 
+        "IIHF", 
+        "Finland men's national ice hockey team", 
+        "Unified Team at the Olympics", 
+        "IIHF World Ranking", 
+        "Czech Republic men's national ice hockey team"
+      ], 
+      "wiki-title": "Russia men's national ice hockey team", 
+      "wiki-text": "The Russian men's national ice hockey team is the national ice hockey team of Russia, and are controlled by the Ice Hockey Federation of Russia. They are currently rated number three in the IIHF World Rankings; with 3040 points. The team has been competing internationally since 1993, and is recognized by the IIHF as the successor to the Soviet Union Hockey Federation and have passed its ranking on to Russia. Today, it still follows a long tradition of Soviet hockey teams, composed mostly of Russian players. The Russian team replaced the Unified Team of the ice hockey at the 1992 Winter Olympics and the Commonwealth of Independent States team of the 1992 World Championships and is a member of the so-called \"Big Six\", the unofficial group of the six strongest men's ice hockey nations, along with Canada, the Czech Republic, Finland, Sweden and the United States."
+    }, 
+    "38": {
       "mesh-name": "Poliomyelitis", 
       "wid": 25107, 
       "mesh-tn": [
@@ -2109,7 +2192,7 @@
         "asymptomatic"
       ]
     }, 
-    "33": {
+    "39": {
       "mesh-name": "Population Characteristics", 
       "wid": 760036, 
       "mesh-tn": [
@@ -2154,7 +2237,7 @@
         "demography"
       ]
     }, 
-    "34": {
+    "40": {
       "mesh-name": "Residence Characteristics", 
       "wid": 11206044, 
       "mesh-tn": [
@@ -2229,7 +2312,7 @@
         "name"
       ]
     }, 
-    "35": {
+    "41": {
       "mesh-name": "Comprehension", 
       "wid": 216180, 
       "mesh-tn": [
@@ -2270,7 +2353,7 @@
         "message"
       ]
     }, 
-    "36": {
+    "42": {
       "mesh-name": "Vascular Diseases", 
       "wid": 5200872, 
       "mesh-tn": [
@@ -2299,7 +2382,7 @@
         "cardiovascular disease"
       ]
     }, 
-    "37": {
+    "43": {
       "mesh-name": "Hantavirus Pulmonary Syndrome", 
       "wid": 769409, 
       "mesh-tn": [
@@ -2363,7 +2446,7 @@
         "Spanish language"
       ]
     }, 
-    "38": {
+    "44": {
       "mesh-name": "Macrophages", 
       "wid": 169270, 
       "mesh-tn": [
@@ -2476,7 +2559,7 @@
         "pathogen"
       ]
     }, 
-    "39": {
+    "45": {
       "mesh-name": "Lung", 
       "wid": 36863, 
       "mesh-tn": [
@@ -2514,7 +2597,7 @@
         "cell (biology)"
       ]
     }, 
-    "40": {
+    "46": {
       "mesh-name": "Macrophages, Alveolar", 
       "wid": 8129870, 
       "mesh-tn": [
@@ -2640,7 +2723,7 @@
         "macrophage"
       ]
     }, 
-    "41": {
+    "47": {
       "mesh-name": "Rodentia", 
       "wid": 19337310, 
       "mesh-tn": [
@@ -2715,7 +2798,7 @@
         "pika"
       ]
     }, 
-    "42": {
+    "48": {
       "mesh-name": "Cricetinae", 
       "wid": 14376, 
       "mesh-tn": [
@@ -2779,7 +2862,7 @@
         "species"
       ]
     }, 
-    "43": {
+    "49": {
       "mesh-name": "Clodronic Acid", 
       "wid": 12115953, 
       "mesh-tn": [
@@ -2839,7 +2922,7 @@
         "United States Adopted Name"
       ]
     }, 
-    "44": {
+    "50": {
       "mesh-name": "Liposomes", 
       "wid": 17556082, 
       "mesh-tn": [
@@ -2951,7 +3034,7 @@
         "cholesterol"
       ]
     }, 
-    "45": {
+    "51": {
       "mesh-name": "Therapeutics", 
       "wid": 13311819, 
       "mesh-tn": [
@@ -2980,7 +3063,7 @@
         "psychotherapy"
       ]
     }, 
-    "46": {
+    "52": {
       "mesh-name": "Neutrophils", 
       "wid": 563086, 
       "mesh-tn": [
@@ -3143,7 +3226,7 @@
         "granulopoiesis"
       ]
     }, 
-    "47": {
+    "53": {
       "mesh-name": "Vascular Endothelial Growth Factor A", 
       "wid": 15497663, 
       "mesh-tn": [
@@ -3250,7 +3333,7 @@
         "gene"
       ]
     }, 
-    "48": {
+    "54": {
       "mesh-name": "Hantavirus", 
       "wid": 416945, 
       "mesh-tn": [
@@ -3314,7 +3397,40 @@
         "RNA virus"
       ]
     }, 
-    "49": {
+    "55": {
+      "wid": 27117, 
+      "wiki-links": [
+        "chemical element", 
+        "Greek language", 
+        "periodic table", 
+        "J\u00f6ns Jacob Berzelius", 
+        "atomic number", 
+        "tellurium", 
+        "selene", 
+        "sulfur", 
+        "nonmetal", 
+        "chalcogen"
+      ], 
+      "wiki-title": "Selenium", 
+      "wiki-text": "Selenium is a chemical element with symbol Se and atomic number\u00a034. It is a nonmetal with properties that are intermediate between those of its periodic table column-adjacent chalcogen elements sulfur and tellurium. It rarely occurs in its elemental state in nature, or as pure ore compounds. Selenium (Greek \u03c3\u03b5\u03bb\u03ae\u03bd\u03b7 \"selene\" meaning \"Moon\") was discovered in 1817 by J\u00f6ns Jacob Berzelius, who noted the similarity of the new element to the previously known tellurium (named for the Earth)."
+    }, 
+    "56": {
+      "wid": 54104, 
+      "wiki-links": [
+        "antioxidant", 
+        "International unit", 
+        "Gamma-Tocopherol", 
+        "reactive oxygen species", 
+        "hypervitaminosis E", 
+        "vitamin K", 
+        "tocopherol", 
+        "Alpha-Tocopherol", 
+        "tocotrienol"
+      ], 
+      "wiki-title": "Vitamin E", 
+      "wiki-text": "Vitamin E refers to a group of compounds that include both tocopherols and tocotrienols. Of the many different forms of vitamin E, \u03b3-tocopherol is the most common in the North American diet. \u03b3-Tocopherol can be found in corn oil, soybean oil, margarine, and dressings. \u03b1-tocopherol, the most biologically active form of vitamin E, is the second-most common form of vitamin E in the diet. This variant can be found most abundantly in wheat germ oil, sunflower, and safflower oils. As a fat-soluble antioxidant, it stops the production of reactive oxygen species formed when fat undergoes oxidation. Regular consumption of more than 1,000\u00a0mg (1,500 IU) of tocopherols per day may be expected to cause hypervitaminosis E, with an associated risk of vitamin K deficiency and consequently of bleeding problems."
+    }, 
+    "57": {
       "mesh-name": "Neoplasms", 
       "wid": 105219, 
       "mesh-tn": [
@@ -3349,7 +3465,7 @@
         "Cancer signs and symptoms"
       ]
     }, 
-    "50": {
+    "58": {
       "mesh-name": "Selenomethionine", 
       "wid": 1554372, 
       "mesh-tn": [
@@ -3447,7 +3563,7 @@
         "chalcogen"
       ]
     }, 
-    "51": {
+    "59": {
       "mesh-name": "Tocopherols", 
       "wid": 32214439, 
       "mesh-tn": [
@@ -3667,7 +3783,7 @@
         "Hyderabad, India"
       ]
     }, 
-    "52": {
+    "60": {
       "mesh-name": "Prostatic Neoplasms", 
       "wid": 43186173, 
       "mesh-tn": [
@@ -3773,7 +3889,32 @@
         ]
       }
     }, 
-    "53": {
+    "61": {
+      "wid": 11632, 
+      "wiki-links": [
+        "Veterinary medicine", 
+        "blood transfusion", 
+        "Over-the-counter drug", 
+        "List of United States federal agencies", 
+        "public health", 
+        "tobacco products", 
+        "electromagnetic radiation", 
+        "dietary supplement", 
+        "regulation", 
+        "Prescription drug", 
+        "biopharmaceutical", 
+        "food safety", 
+        "United States federal executive departments", 
+        "pharmaceutical drug", 
+        "Animal Feed", 
+        "medical device", 
+        "vaccine", 
+        "United States Department of Health and Human Services"
+      ], 
+      "wiki-title": "Food and Drug Administration", 
+      "wiki-text": "The Food and Drug Administration (FDA or USFDA) is a federal agency of the United States Department of Health and Human Services, one of the United States federal executive departments. The FDA is responsible for protecting and promoting public health through the regulation and supervision of food safety, tobacco products, dietary supplements, prescription and over-the-counter pharmaceutical drugs (medications), vaccines, biopharmaceuticals, blood transfusions, medical devices, electromagnetic radiation emitting devices (ERED), cosmetics, animal foods & feed and veterinary products."
+    }, 
+    "62": {
       "mesh-name": "Oxidoreductases", 
       "wid": 9205515, 
       "extra-parent": [
@@ -3830,7 +3971,45 @@
         "Redox"
       ]
     }, 
-    "54": {
+    "63": {
+      "mesh-name": "Chemoprevention", 
+      "wid": 2016130, 
+      "mesh-tn": [
+        "E02.319.162"
+      ], 
+      "mesh-synonyms": [
+        "Chemoprophylaxis"
+      ], 
+      "mesh-id": "D018890", 
+      "wiki-text": "Chemoprevention (also Chemoprophylaxis) refers to the administration of a medication for the purpose of preventing disease or infection. Antibiotics, for example, may be administered to patients with disorders of immune system function to prevent bacterial infections (particularly opportunistic infection). Antibiotics may also be administered to healthy individuals to limit the spread of an epidemic, or to patients who have repeated infections (such as urinary tract infections) to prevent recurrence. It may also refer to the administration of heparin to prevent deep venous thrombosis in hospitalized patients.", 
+      "mesh-description": "The use of chemical compounds to prevent the development of a specific disease.", 
+      "mesh-parents": {
+        "E02.319.162": [
+          [
+            "D004358", 
+            "Drug Therapy", 
+            "E02.319"
+          ], 
+          [
+            "D013812", 
+            "Therapeutics", 
+            "E02"
+          ]
+        ]
+      }, 
+      "wiki-title": "Chemoprophylaxis", 
+      "wiki-links": [
+        "medication", 
+        "urinary tract infection", 
+        "disease", 
+        "infection", 
+        "Antibiotics", 
+        "epidemic", 
+        "immune system", 
+        "opportunistic infection"
+      ]
+    }, 
+    "64": {
       "mesh-name": "Biological Markers", 
       "wid": 1180539, 
       "mesh-tn": [
@@ -3905,7 +4084,7 @@
         "clinical trial"
       ]
     }, 
-    "55": {
+    "65": {
       "mesh-name": "Mass Screening", 
       "wid": 1928867, 
       "mesh-tn": [
@@ -4088,7 +4267,7 @@
         ""
       ]
     }, 
-    "56": {
+    "66": {
       "mesh-name": "Inflammation", 
       "wid": 70425, 
       "mesh-tn": [
@@ -4122,7 +4301,7 @@
         "pathogen"
       ]
     }, 
-    "57": {
+    "67": {
       "mesh-name": "Adrenal Glands", 
       "wid": 2296, 
       "mesh-tn": [
@@ -4162,7 +4341,7 @@
         "steroid hormone"
       ]
     }, 
-    "58": {
+    "68": {
       "mesh-name": "Adrenal Insufficiency", 
       "wid": 548913, 
       "mesh-tn": [
@@ -4202,7 +4381,7 @@
         "aldosterone"
       ]
     }, 
-    "59": {
+    "69": {
       "mesh-name": "Adrenal Gland Neoplasms", 
       "wid": 11532835, 
       "mesh-tn": [
@@ -4289,7 +4468,7 @@
         "neoplasia"
       ]
     }, 
-    "60": {
+    "70": {
       "mesh-name": "Autoimmune Diseases", 
       "wid": 19468046, 
       "mesh-tn": [
@@ -4324,7 +4503,7 @@
         "kidney"
       ]
     }, 
-    "61": {
+    "71": {
       "mesh-name": "Addison Disease", 
       "wid": 548913, 
       "mesh-tn": [
@@ -4392,7 +4571,7 @@
         "aldosterone"
       ]
     }, 
-    "62": {
+    "72": {
       "mesh-name": "Adrenal Cortex", 
       "wid": 270061, 
       "mesh-tn": [
@@ -4438,7 +4617,7 @@
         "aldosterone"
       ]
     }, 
-    "63": {
+    "73": {
       "mesh-name": "Tissues", 
       "wid": 31184, 
       "mesh-tn": [
@@ -4458,7 +4637,7 @@
         ""
       ]
     }, 
-    "64": {
+    "74": {
       "mesh-name": "Tuberculosis", 
       "wid": 46217872, 
       "mesh-tn": [
@@ -4504,7 +4683,7 @@
         ]
       }
     }, 
-    "65": {
+    "75": {
       "mesh-name": "Virus Diseases", 
       "wid": 15845253, 
       "mesh-tn": [
@@ -4533,7 +4712,7 @@
         "infection"
       ]
     }, 
-    "66": {
+    "76": {
       "mesh-name": "Epstein-Barr Virus Infections", 
       "wid": 21373381, 
       "mesh-tn": [
@@ -4624,171 +4803,7 @@
         "Burkitt's lymphoma"
       ]
     }, 
-    "67": {
-      "mesh-name": "Herpesvirus 4, Human", 
-      "wid": 214550, 
-      "mesh-tn": [
-        "B04.280.382.400.500.450", 
-        "B04.909.204.210.400.500.400", 
-        "B04.909.204.382.400.500.400", 
-        "B04.909.574.204.500.500.400"
-      ], 
-      "mesh-synonyms": [
-        "Burkitt Herpesvirus", 
-        "Burkitt Lymphoma Virus", 
-        "E-B Virus", 
-        "EBV", 
-        "Epstein-Barr Virus", 
-        "Human Herpesvirus 4", 
-        "Infectious Mononucleosis Virus", 
-        "Burkitt's Lymphoma Virus", 
-        "HHV-4", 
-        "Herpesvirus 4 (gamma), Human", 
-        "Burkitts Lymphoma Virus", 
-        "E B Virus", 
-        "E-B Viruses", 
-        "Epstein Barr Virus", 
-        "Herpesvirus, Burkitt", 
-        "Infectious Mononucleosis Viruses", 
-        "Lymphoma Virus, Burkitt", 
-        "Mononucleosis Virus, Infectious", 
-        "Mononucleosis Viruses, Infectious"
-      ], 
-      "mesh-id": "D004854", 
-      "wiki-text": "The Epstein\u2013Barr virus (EBV), also called human herpesvirus 4 (HHV-4), is one of eight viruses in the herpes family, and is one of the most common viruses in humans.", 
-      "mesh-description": "The type species of LYMPHOCRYPTOVIRUS, subfamily GAMMAHERPESVIRINAE, infecting B-cells in humans. It is thought to be the causative agent of INFECTIOUS MONONUCLEOSIS and is strongly associated with oral hairy leukoplakia (LEUKOPLAKIA, HAIRY;), BURKITT LYMPHOMA; and other malignancies.", 
-      "mesh-parents": {
-        "B04.909.204.382.400.500.400": [
-          [
-            "D018143", 
-            "Lymphocryptovirus", 
-            "B04.909.204.382.400.500"
-          ], 
-          [
-            "D018142", 
-            "Gammaherpesvirinae", 
-            "B04.909.204.382.400"
-          ], 
-          [
-            "D006564", 
-            "Herpesviridae", 
-            "B04.909.204.382"
-          ], 
-          [
-            "D004267", 
-            "DNA Viruses", 
-            "B04.909.204"
-          ], 
-          [
-            "D014712", 
-            "Vertebrate Viruses", 
-            "B04.909"
-          ], 
-          [
-            "D014780", 
-            "Viruses", 
-            "B04"
-          ]
-        ], 
-        "B04.909.574.204.500.500.400": [
-          [
-            "D018143", 
-            "Lymphocryptovirus", 
-            "B04.909.574.204.500.500"
-          ], 
-          [
-            "D018142", 
-            "Gammaherpesvirinae", 
-            "B04.909.574.204.500"
-          ], 
-          [
-            "D004263", 
-            "DNA Tumor Viruses", 
-            "B04.909.574.204"
-          ], 
-          [
-            "D009858", 
-            "Oncogenic Viruses", 
-            "B04.909.574"
-          ], 
-          [
-            "D014712", 
-            "Vertebrate Viruses", 
-            "B04.909"
-          ], 
-          [
-            "D014780", 
-            "Viruses", 
-            "B04"
-          ]
-        ], 
-        "B04.280.382.400.500.450": [
-          [
-            "D018143", 
-            "Lymphocryptovirus", 
-            "B04.280.382.400.500"
-          ], 
-          [
-            "D018142", 
-            "Gammaherpesvirinae", 
-            "B04.280.382.400"
-          ], 
-          [
-            "D006564", 
-            "Herpesviridae", 
-            "B04.280.382"
-          ], 
-          [
-            "D004267", 
-            "DNA Viruses", 
-            "B04.280"
-          ], 
-          [
-            "D014780", 
-            "Viruses", 
-            "B04"
-          ]
-        ], 
-        "B04.909.204.210.400.500.400": [
-          [
-            "D018143", 
-            "Lymphocryptovirus", 
-            "B04.909.204.210.400.500"
-          ], 
-          [
-            "D018142", 
-            "Gammaherpesvirinae", 
-            "B04.909.204.210.400"
-          ], 
-          [
-            "D004263", 
-            "DNA Tumor Viruses", 
-            "B04.909.204.210"
-          ], 
-          [
-            "D004267", 
-            "DNA Viruses", 
-            "B04.909.204"
-          ], 
-          [
-            "D014712", 
-            "Vertebrate Viruses", 
-            "B04.909"
-          ], 
-          [
-            "D014780", 
-            "Viruses", 
-            "B04"
-          ]
-        ]
-      }, 
-      "wiki-title": "Epstein\u2013Barr virus", 
-      "wiki-links": [
-        "virus", 
-        "Herpesviridae"
-      ]
-    }, 
-    "68": {
+    "77": {
       "mesh-name": "Cytomegalovirus", 
       "wid": 8499164, 
       "mesh-tn": [
@@ -4871,7 +4886,7 @@
         "cytomegalovirus"
       ]
     }, 
-    "69": {
+    "78": {
       "mesh-name": "Immunologic Deficiency Syndromes", 
       "wid": 629684, 
       "mesh-tn": [
@@ -4917,7 +4932,7 @@
         "immune system"
       ]
     }, 
-    "70": {
+    "79": {
       "mesh-name": "Autopsy", 
       "wid": 342334, 
       "mesh-tn": [
@@ -4993,7 +5008,7 @@
         "injury"
       ]
     }, 
-    "71": {
+    "80": {
       "mesh-name": "Death", 
       "wid": 19008500, 
       "mesh-tn": [
@@ -5028,7 +5043,7 @@
         "experience"
       ]
     }, 
-    "72": {
+    "81": {
       "mesh-name": "Thyroid Crisis", 
       "wid": 3278865, 
       "mesh-tn": [
@@ -5102,7 +5117,7 @@
         "Psychomotor agitation"
       ]
     }, 
-    "73": {
+    "82": {
       "mesh-name": "Pulmonary Disease, Chronic Obstructive", 
       "wid": 30206738, 
       "mesh-tn": [
@@ -5149,7 +5164,7 @@
         "shortness of breath"
       ]
     }, 
-    "74": {
+    "83": {
       "mesh-name": "Affect", 
       "wid": 2557834, 
       "mesh-tn": [
@@ -5182,7 +5197,7 @@
         ""
       ]
     }, 
-    "75": {
+    "84": {
       "mesh-name": "Population", 
       "wid": 22949, 
       "mesh-tn": [
@@ -5218,7 +5233,7 @@
         "species"
       ]
     }, 
-    "76": {
+    "85": {
       "mesh-name": "Prevalence", 
       "wid": 126688, 
       "mesh-tn": [
@@ -5376,7 +5391,7 @@
         "epidemiology"
       ]
     }, 
-    "77": {
+    "86": {
       "mesh-name": "Smoking", 
       "wid": 73298, 
       "mesh-tn": [
@@ -5436,7 +5451,7 @@
         "Eurasia"
       ]
     }, 
-    "78": {
+    "87": {
       "mesh-name": "Smoking Cessation", 
       "wid": 289607, 
       "mesh-tn": [
@@ -5481,7 +5496,7 @@
         "substance dependence"
       ]
     }, 
-    "79": {
+    "88": {
       "mesh-name": "Rehabilitation", 
       "wid": 352930, 
       "mesh-tn": [
@@ -5538,7 +5553,7 @@
         ""
       ]
     }, 
-    "80": {
+    "89": {
       "mesh-name": "Pneumonectomy", 
       "wid": 2448646, 
       "mesh-tn": [
@@ -5583,7 +5598,7 @@
         "lobectomy (lung)"
       ]
     }, 
-    "81": {
+    "90": {
       "mesh-name": "Lung Transplantation", 
       "wid": 3310752, 
       "mesh-tn": [
@@ -5644,7 +5659,7 @@
         "Human lung"
       ]
     }, 
-    "82": {
+    "91": {
       "mesh-name": "Methods", 
       "wid": 25066, 
       "mesh-tn": [
@@ -5675,7 +5690,7 @@
         ""
       ]
     }, 
-    "83": {
+    "92": {
       "mesh-name": "Depressive Disorder", 
       "wid": 8389, 
       "mesh-tn": [
@@ -5734,7 +5749,7 @@
         "depression (mood)"
       ]
     }, 
-    "84": {
+    "93": {
       "mesh-name": "Chronic Disease", 
       "wid": 4421272, 
       "mesh-tn": [
@@ -5788,7 +5803,7 @@
         "diabetes"
       ]
     }, 
-    "85": {
+    "94": {
       "mesh-name": "Maintenance", 
       "wid": 41348, 
       "mesh-tn": [
@@ -5814,7 +5829,43 @@
         ""
       ]
     }, 
-    "86": {
+    "95": {
+      "mesh-name": "Diagnosis", 
+      "wid": 18507525, 
+      "mesh-tn": [
+        "E01"
+      ], 
+      "mesh-synonyms": [
+        "Antemortem Diagnosis", 
+        "Diagnoses and Examinations", 
+        "Examinations and Diagnoses", 
+        "Postmortem Diagnosis", 
+        "Antemortem Diagnoses", 
+        "Diagnoses", 
+        "Diagnoses, Antemortem", 
+        "Diagnoses, Postmortem", 
+        "Diagnosis, Antemortem", 
+        "Diagnosis, Postmortem", 
+        "Postmortem Diagnoses"
+      ], 
+      "mesh-id": "D003933", 
+      "wiki-text": "Diagnosis is the identification of the nature and cause of a certain phenomenon. Diagnosis is used in many different disciplines with variations in the use of logics, analytics, and experience to determine \"cause and effect\". In systems engineering and computer science, it is typically used to determine the causes of symptoms, mitigations, and solutions.", 
+      "mesh-description": "The determination of the nature of a disease or condition, or the distinguishing of one disease or condition from another. Assessment may be made through physical examination, laboratory tests, or the likes. Computerized programs may be used to enhance the decision-making process.", 
+      "mesh-parents": {
+        "E01": []
+      }, 
+      "wiki-title": "Diagnosis", 
+      "wiki-links": [
+        "systems engineering", 
+        "logics", 
+        "causality", 
+        "experience", 
+        "analytics", 
+        "computer science", 
+        "academic discipline"
+      ]
+    }, 
+    "96": {
       "mesh-name": "Cohort Studies", 
       "wid": 397271, 
       "mesh-tn": [
@@ -5946,7 +5997,7 @@
         "risk factors"
       ]
     }, 
-    "87": {
+    "97": {
       "mesh-name": "Primary Health Care", 
       "wid": 2582128, 
       "mesh-tn": [
@@ -5990,7 +6041,7 @@
         "universal health care"
       ]
     }, 
-    "88": {
+    "98": {
       "mesh-name": "Hypotension", 
       "wid": 500475, 
       "mesh-tn": [
@@ -6031,7 +6082,7 @@
         "physiology"
       ]
     }, 
-    "89": {
+    "99": {
       "mesh-name": "Anhedonia", 
       "wid": 36682194, 
       "mesh-tn": [
@@ -6106,7 +6157,60 @@
         ]
       }
     }, 
-    "90": {
+    "100": {
+      "mesh-name": "Sleep", 
+      "wid": 2708147, 
+      "mesh-tn": [
+        "F02.830.855", 
+        "G11.561.600.815"
+      ], 
+      "mesh-synonyms": [
+        "Sleep, Slow-Wave", 
+        "Sleep, Slow Wave", 
+        "Slow-Wave Sleep"
+      ], 
+      "mesh-id": "D012890", 
+      "wiki-text": "Slow-wave sleep (SWS), often referred to as deep sleep, consists of stage three of non-rapid eye movement sleep, according to the Rechtschaffen & Kales (R & K) standard of 1968. There is not a clear distinction between stages three and four. Stage three has 20-50 percent delta activity, whereas stage four has more than 50 percent. As of 2008, the American Academy of Sleep Medicine (AASM) has discontinued the use of stage four, such that the previous stages three and four now are combined as stage three. An epoch (30 seconds of sleep) which consists of 20% or more slow wave (delta) sleep, now is considered to be stage three.", 
+      "mesh-description": "A readily reversible suspension of sensorimotor interaction with the environment, usually associated with recumbency and immobility.", 
+      "mesh-parents": {
+        "F02.830.855": [
+          [
+            "D011603", 
+            "Psychophysiology", 
+            "F02.830"
+          ], 
+          [
+            "D011579", 
+            "Psychological Phenomena and Processes", 
+            "F02"
+          ]
+        ], 
+        "G11.561.600.815": [
+          [
+            "D052778", 
+            "Nervous System Physiological Processes", 
+            "G11.561.600"
+          ], 
+          [
+            "D009424", 
+            "Nervous System Physiological Phenomena", 
+            "G11.561"
+          ], 
+          [
+            "D055687", 
+            "Musculoskeletal and Neural Physiological Phenomena", 
+            "G11"
+          ]
+        ]
+      }, 
+      "wiki-title": "Slow-wave sleep", 
+      "wiki-links": [
+        "American Academy of Sleep Medicine", 
+        "delta wave", 
+        "non-rapid eye movement sleep"
+      ]
+    }, 
+    "101": {
       "mesh-name": "Sleep Initiation and Maintenance Disorders", 
       "wid": 50798, 
       "mesh-tn": [
@@ -6199,7 +6303,7 @@
         "polysomnography"
       ]
     }, 
-    "91": {
+    "102": {
       "mesh-name": "Disorders of Excessive Somnolence", 
       "wid": 7183233, 
       "mesh-tn": [
@@ -6288,7 +6392,7 @@
         "sleep apnea"
       ]
     }, 
-    "92": {
+    "103": {
       "mesh-name": "Emotions", 
       "wid": 3929834, 
       "mesh-tn": [
@@ -6327,7 +6431,7 @@
         "Depression (mood)"
       ]
     }, 
-    "93": {
+    "104": {
       "mesh-name": "Guilt", 
       "wid": 24650223, 
       "mesh-tn": [
@@ -6358,7 +6462,44 @@
         ""
       ]
     }, 
-    "94": {
+    "105": {
+      "mesh-name": "Fatigue", 
+      "wid": 235562, 
+      "mesh-tn": [
+        "C23.888.369"
+      ], 
+      "mesh-synonyms": [
+        "Lassitude"
+      ], 
+      "mesh-id": "D005221", 
+      "wiki-text": "Fatigue (also called exhaustion, tiredness, languidness, languor, lassitude, and listlessness) is a subjective feeling of tiredness which is distinct from weakness, and has a gradual onset. Unlike weakness, fatigue can be alleviated by periods of rest. Fatigue can have physical or mental causes. Physical fatigue is the transient inability of a muscle to maintain optimal physical performance, and is made more severe by intense physical exercise. Mental fatigue is a transient decrease in maximal cognitive performance resulting from prolonged periods of cognitive activity. It can manifest as somnolence, lethargy, or directed attention fatigue.", 
+      "mesh-description": "The state of weariness following a period of exertion, mental or physical, characterized by a decreased capacity for work and reduced efficiency to respond to stimuli.", 
+      "mesh-parents": {
+        "C23.888.369": [
+          [
+            "D012816", 
+            "Signs and Symptoms", 
+            "C23.888"
+          ], 
+          [
+            "D013568", 
+            "Pathological Conditions, Signs and Symptoms", 
+            "C23"
+          ]
+        ]
+      }, 
+      "wiki-title": "Fatigue (medical)", 
+      "wiki-links": [
+        "somnolence", 
+        "lethargy", 
+        "directed attention fatigue", 
+        "weakness", 
+        "physical exercise", 
+        "sleep", 
+        "muscle"
+      ]
+    }, 
+    "106": {
       "mesh-name": "Hearing Loss", 
       "wid": 49604, 
       "mesh-tn": [
@@ -6449,43 +6590,7 @@
         "Hearing"
       ]
     }, 
-    "95": {
-      "mesh-name": "Diagnosis", 
-      "wid": 18507525, 
-      "mesh-tn": [
-        "E01"
-      ], 
-      "mesh-synonyms": [
-        "Antemortem Diagnosis", 
-        "Diagnoses and Examinations", 
-        "Examinations and Diagnoses", 
-        "Postmortem Diagnosis", 
-        "Antemortem Diagnoses", 
-        "Diagnoses", 
-        "Diagnoses, Antemortem", 
-        "Diagnoses, Postmortem", 
-        "Diagnosis, Antemortem", 
-        "Diagnosis, Postmortem", 
-        "Postmortem Diagnoses"
-      ], 
-      "mesh-id": "D003933", 
-      "wiki-text": "Diagnosis is the identification of the nature and cause of a certain phenomenon. Diagnosis is used in many different disciplines with variations in the use of logics, analytics, and experience to determine \"cause and effect\". In systems engineering and computer science, it is typically used to determine the causes of symptoms, mitigations, and solutions.", 
-      "mesh-description": "The determination of the nature of a disease or condition, or the distinguishing of one disease or condition from another. Assessment may be made through physical examination, laboratory tests, or the likes. Computerized programs may be used to enhance the decision-making process.", 
-      "mesh-parents": {
-        "E01": []
-      }, 
-      "wiki-title": "Diagnosis", 
-      "wiki-links": [
-        "systems engineering", 
-        "logics", 
-        "causality", 
-        "experience", 
-        "analytics", 
-        "computer science", 
-        "academic discipline"
-      ]
-    }, 
-    "96": {
+    "107": {
       "mesh-name": "HIV Infections", 
       "wid": 14170, 
       "mesh-tn": [
@@ -6582,134 +6687,57 @@
         "White blood cell"
       ]
     }, 
-    "97": {
-      "wid": 2220738, 
+    "108": {
+      "wid": 23431, 
       "wiki-links": [
-        "black powder", 
-        "caliber", 
-        "Saker (cannon)", 
-        "cannon", 
-        "culverin", 
-        "List of cannon projectiles"
+        "Spanish Empire", 
+        "Norte Chico civilization", 
+        "Inca Empire", 
+        "nomads", 
+        "Independence of Peru", 
+        "millennia", 
+        "South American", 
+        "Pre-Columbian", 
+        "Peru", 
+        "Battle of Ayacucho", 
+        "Viceroyalty of Peru", 
+        "Bering Strait"
       ], 
-      "wiki-title": "Demi-culverin", 
-      "wiki-text": "The demi-culverin was a medium cannon similar to but slightly larger than a saker and smaller than a regular culverin developed in the late 16th century. Barrels of demi-culverins were typically about long, had a calibre of and could weigh up to . It required of black powder to fire an round shot (though there were heavier variants firing or round shot). The demi-culverin had an effective range of ."
+      "wiki-title": "History of Peru", 
+      "wiki-text": "The history of Peru spans several millennia, extending back through several stages of cultural development in the mountain region and the coastal desert. About 15,200 years ago, groups of people are believed to have crossed the Bering Strait from Asia and survived as nomads, hunting, gathering fruits and vegetables and fishing in the sea, rivers and lakes. Peruvian territory was home to the Norte Chico civilization, one of the six oldest in the world, and to the Inca Empire, the largest state in Pre-Columbian America. It was conquered by the Spanish Empire in the 16th century, which established a Viceroyalty with jurisdiction over most of its South American domains. The nation declared independence from Spain in 1821, but consolidated only after the Battle of Ayacucho, three years later."
     }, 
-    "98": {
-      "mesh-name": "HIV", 
-      "wid": 14170, 
-      "mesh-tn": [
-        "B04.820.650.589.650.350", 
-        "B04.909.777.731.589.650.350"
-      ], 
-      "mesh-synonyms": [
-        "AIDS Virus", 
-        "HTLV-III", 
-        "Human Immunodeficiency Viruses", 
-        "Human T-Cell Lymphotropic Virus Type III", 
-        "Human T-Lymphotropic Virus Type III", 
-        "LAV-HTLV-III", 
-        "Lymphadenopathy-Associated Virus", 
-        "Acquired Immune Deficiency Syndrome Virus", 
-        "Acquired Immunodeficiency Syndrome Virus", 
-        "Human Immunodeficiency Virus", 
-        "Human T Cell Lymphotropic Virus Type III", 
-        "Human T Lymphotropic Virus Type III", 
-        "Human T-Cell Leukemia Virus Type III", 
-        "Immunodeficiency Virus, Human", 
-        "Immunodeficiency Viruses, Human", 
-        "Virus, Human Immunodeficiency", 
-        "Viruses, Human Immunodeficiency", 
-        "AIDS Viruses", 
-        "Human T Cell Leukemia Virus Type III", 
-        "Lymphadenopathy Associated Virus", 
-        "Lymphadenopathy-Associated Viruses", 
-        "Virus, AIDS", 
-        "Virus, Lymphadenopathy-Associated", 
-        "Viruses, AIDS", 
-        "Viruses, Lymphadenopathy-Associated"
-      ], 
-      "mesh-id": "D006678", 
-      "wiki-text": "The human immunodeficiency virus (HIV) is a lentivirus (a subgroup of retrovirus) that causes the acquired immunodeficiency syndrome (AIDS), a condition in humans in which progressive failure of the immune system allows life-threatening opportunistic infections and cancers to thrive. Without treatment, average survival time after infection with HIV is estimated to be 9 to 11\u00a0years, depending on the HIV subtype. Infection with HIV occurs by the transfer of blood, semen, vaginal fluid, pre-ejaculate, or breast milk. Within these bodily fluids, HIV is present as both free virus particles and virus within infected immune cells.", 
-      "mesh-description": "Human immunodeficiency virus. A non-taxonomic and historical term referring to any of two species, specifically HIV-1 and/or HIV-2. Prior to 1986, this was called human T-lymphotropic virus type III/lymphadenopathy-associated virus (HTLV-III/LAV). From 1986-1990, it was an official species called HIV. Since 1991, HIV was no longer considered an official species name; the two species were designated HIV-1 and HIV-2.", 
-      "mesh-parents": {
-        "B04.820.650.589.650.350": [
-          [
-            "D017958", 
-            "Lentiviruses, Primate", 
-            "B04.820.650.589.650"
-          ], 
-          [
-            "D016086", 
-            "Lentivirus", 
-            "B04.820.650.589"
-          ], 
-          [
-            "D012190", 
-            "Retroviridae", 
-            "B04.820.650"
-          ], 
-          [
-            "D012328", 
-            "RNA Viruses", 
-            "B04.820"
-          ], 
-          [
-            "D014780", 
-            "Viruses", 
-            "B04"
-          ]
-        ], 
-        "B04.909.777.731.589.650.350": [
-          [
-            "D017958", 
-            "Lentiviruses, Primate", 
-            "B04.909.777.731.589.650"
-          ], 
-          [
-            "D016086", 
-            "Lentivirus", 
-            "B04.909.777.731.589"
-          ], 
-          [
-            "D012190", 
-            "Retroviridae", 
-            "B04.909.777.731"
-          ], 
-          [
-            "D012328", 
-            "RNA Viruses", 
-            "B04.909.777"
-          ], 
-          [
-            "D014712", 
-            "Vertebrate Viruses", 
-            "B04.909"
-          ], 
-          [
-            "D014780", 
-            "Viruses", 
-            "B04"
-          ]
-        ]
-      }, 
-      "wiki-title": "HIV", 
+    "109": {
+      "wid": 591031, 
       "wiki-links": [
-        "semen", 
-        "pre-ejaculate", 
-        "cancer", 
-        "Vaginal lubrication", 
-        "breast milk", 
-        "lentivirus", 
-        "retrovirus", 
-        "blood", 
-        "immune system", 
-        "AIDS", 
-        "opportunistic infection", 
-        "White blood cell"
-      ]
+        "gay", 
+        "bisexuality", 
+        "Homosexuality", 
+        "Sexual identity", 
+        "epidemiology", 
+        "sexual activity", 
+        "male", 
+        "Identity (social science)"
+      ], 
+      "wiki-title": "Men who have sex with men", 
+      "wiki-text": "Men who have sex with men (MSM), also known as males who have sex with males, are male persons who engage in sexual activity with members of the same sex, regardless of how they identify themselves; many such men do not (or cannot for various reasons) sexually identify as gay, homosexual or bisexual. The term was created in the 1990s by epidemiologists in order to study the spread of disease among men who have sex with men, regardless of identity."
     }, 
-    "99": {
+    "110": {
+      "wid": 1662853, 
+      "wiki-links": [
+        "website", 
+        "multiplayer", 
+        "sequel", 
+        "message board", 
+        "vBulletin", 
+        "first-person shooter", 
+        "online", 
+        "news", 
+        "prequel"
+      ], 
+      "wiki-title": "TribalWar", 
+      "wiki-text": "TribalWar, often abbreviated TW, is a general news website that originally focused on the game , or Tribes, a team-based online multiplayer first-person shooter, and its subsequent sequel and prequel. TribalWar was created on December 5, 1999, by Anthony \"Rayn\" Maio, Jon \"Ratorasniki\" Naiman and Johnny \"Imposter\" Titus. The website expanded its news coverage to general subjects due to the financial failure of and presumed end to the Tribes franchise. The most popular feature of TribalWar's website is their message board, which uses a heavily modified version of vBulletin. TW currently has the 17th highest number of posts of any video game forum and the 6th highest post/member ratio of any video game forum according to Big Boards. Over twelve million posts have been made on TW by its approximately 21,400 members. TribalWar has expanded to the point of almost excluding the game series it was formed around, although it still features specific forums dedicated to Tribes. In order to appeal to a more varied audience, they now feature non-gaming subforums."
+    }, 
+    "111": {
       "mesh-name": "Continuity of Patient Care", 
       "wid": 11438176, 
       "mesh-tn": [
@@ -6755,82 +6783,49 @@
         "health care"
       ]
     }, 
-    "100": {
-      "extra-parent": [
-        [
-          [
-            "D002264", 
-            "Carboxylic Acids", 
-            "D02.241"
-          ], 
-          [
-            "D009930", 
-            "Organic Chemicals", 
-            "D02"
-          ]
-        ]
-      ], 
-      "wid": 54114, 
-      "wiki-links": [
-        "retinol", 
-        "retinoic acid", 
-        "opsin", 
-        "growth factor", 
-        "carotenoids", 
-        "retina", 
-        "retinal", 
-        "rhodopsin", 
-        "provitamin", 
-        "hormone", 
-        "epithelial", 
-        "immune system", 
-        "Beta-Carotene", 
-        "color vision", 
-        "scotopic"
-      ], 
-      "wiki-title": "Vitamin A", 
-      "wiki-text": "Vitamin A is a group of unsaturated nutritional organic compounds, that includes retinol, retinal, retinoic acid, and several provitamin A carotenoids, among which beta-carotene is the most important. Vitamin A has multiple functions: it is important for growth and development, for the maintenance of the immune system and good vision. Vitamin A is needed by the retina of the eye in the form of retinal, which combines with protein opsin to form rhodopsin, the light-absorbing molecule necessary for both low-light (scotopic vision) and color vision. Vitamin A also functions in a very different role as retinoic acid (an irreversibly oxidized form of retinol), which is an important hormone-like growth factor for epithelial and other cells."
-    }, 
-    "101": {
-      "mesh-name": "Epidemics", 
-      "wid": 66981, 
+    "112": {
+      "mesh-name": "Awareness", 
+      "wid": 491696, 
       "mesh-tn": [
-        "N06.850.290.200"
+        "F02.463.188.150"
       ], 
       "mesh-synonyms": [
-        "Epidemic"
+        "Awarenesses"
       ], 
-      "mesh-id": "D058872", 
-      "wiki-text": "An epidemic (from Greek \u1f10\u03c0\u03af \"epi\" \"upon or above\" and \u03b4\u1fc6\u03bc\u03bf\u03c2 \"demos\" \"people\") is the rapid spread of infectious disease to a large number of people in a given population within a short period of time, usually two weeks or less. For example, in meningococcal infections, an attack rate in excess of 15 cases per 100,000 people for two consecutive weeks is considered an epidemic.", 
-      "mesh-description": "Sudden outbreaks of a disease in a country or region not previously recognized in that area, or a rapid increase in the number of new cases of a previous existing endemic disease. Epidemics can also refer to outbreaks of disease in animal or plant populations.", 
+      "mesh-id": "D001364", 
+      "wiki-text": "Awareness is the ability to perceive, to feel, or to be conscious of events, objects, thoughts, emotions, or sensory patterns. In this level of consciousness, sense data can be confirmed by an observer without necessarily implying understanding. More broadly, it is the state or quality of being aware of something. In biological psychology, awareness is defined as a human's or an animal's perception and cognitive reaction to a condition or event.", 
+      "mesh-description": "The act of \"taking account\" of an object or state of affairs. It does not imply assessment of nor attention to the qualities or nature of the object.", 
       "mesh-parents": {
-        "N06.850.290.200": [
+        "F02.463.188.150": [
           [
-            "D004196", 
-            "Disease Outbreaks", 
-            "N06.850.290"
+            "D003071", 
+            "Cognition", 
+            "F02.463.188"
           ], 
           [
-            "D011634", 
-            "Public Health", 
-            "N06.850"
+            "D008606", 
+            "Mental Processes", 
+            "F02.463"
           ], 
           [
-            "D004778", 
-            "Environment and Public Health", 
-            "N06"
+            "D011579", 
+            "Psychological Phenomena and Processes", 
+            "F02"
           ]
         ]
       }, 
-      "wiki-title": "Epidemic", 
+      "wiki-title": "Awareness", 
       "wiki-links": [
-        "meningococcal infection", 
-        "attack rate", 
-        "infectious disease", 
-        "Ancient Greek"
+        "perception", 
+        "cognitive", 
+        "conscious", 
+        "pattern", 
+        "understanding", 
+        "biological psychology", 
+        "Object (philosophy)"
       ]
     }, 
-    "102": {
+    "113": {
       "mesh-name": "Morbidity", 
       "wid": 8072, 
       "mesh-tn": [
@@ -6980,7 +6975,7 @@
         "syndrome"
       ]
     }, 
-    "103": {
+    "114": {
       "mesh-name": "Mortality", 
       "wid": 191305, 
       "mesh-tn": [
@@ -7154,7 +7149,7 @@
         "morbidity"
       ]
     }, 
-    "104": {
+    "115": {
       "mesh-name": "Induction Chemotherapy", 
       "wid": 41113973, 
       "mesh-tn": [
@@ -7202,8 +7197,8 @@
         "cancer"
       ]
     }, 
-    "105": {}, 
-    "106": {
+    "116": {}, 
+    "117": {
       "mesh-name": "Magnetic Resonance Spectroscopy", 
       "wid": 25110709, 
       "mesh-tn": [
@@ -7263,36 +7258,29 @@
         "Television channel frequencies"
       ]
     }, 
-    "107": {
-      "wid": 11779453, 
+    "118": {
+      "wid": 8675945, 
       "wiki-links": [
-        "fungus", 
-        "Minimum_inhibitory_concentration", 
-        "bacterium"
+        "Billboard (magazine)", 
+        "Ron Wasserman", 
+        "Kathy Fisher", 
+        "MP3.com", 
+        "Time (magazine)"
       ], 
-      "wiki-title": "Etest", 
-      "wiki-text": "Etest, (previously known as Epsilometer test) manufactured by bioM\u00e9rieux, is a manual \"in vitro\" diagnostic device used by laboratories to determine the MIC (Minimum Inhibitory Concentration) and whether or not a specific strain of bacterium or fungus is susceptible to the action of a specific antimicrobial. This type of test is most commonly used in healthcare settings to help guiding physicians in treatment of patients by indicating what concentration of antimicrobial successfully would treat the infection."
+      "wiki-title": "Fisher (band)", 
+      "wiki-text": "Fisher is a band consisting of songwriter Ron Wasserman and vocalist Kathy Fisher. The band is known for their selling songs through internet marketing; they received a record deal from their success at MP3.com. In 2000, \"Time\" magazine said that they were \"about to become the biggest Internet-based band ever\". Their song \"I Will Love You\" hit #36 on the Billboard Adult Top 40 chart in 2000. In 2000, it was named the most downloaded song in Internet history."
     }, 
-    "108": {
-      "wid": 29831, 
+    "119": {
+      "wid": 4318777, 
       "wiki-links": [
-        "telecommunication", 
-        "television set", 
-        "entertainment", 
-        "color", 
-        "black-and-white", 
-        "television program", 
-        "advertising", 
-        "3D television", 
-        "Transmission (telecommunications)", 
-        "monochrome", 
-        "news", 
-        "mass medium"
+        "England", 
+        "surname", 
+        "Wales"
       ], 
-      "wiki-title": "Television", 
-      "wiki-text": "Television (TV) is a telecommunication medium used for transmitting moving images and sound. Television can transmit images that are monochrome (black-and-white), in color, or in three dimensions. The name \"television\" can refer specifically to a television set, a television program, or the medium of television transmission. Television is an iconic mass medium, serving as a conduit for entertainment, advertising and news."
+      "wiki-title": "Cox (surname)", 
+      "wiki-text": "The surname Cox is of English or Welsh origin, and may have originated independently in several places in Great Britain, with the variations arriving at a standard spelling only later. There are also two native Irish surnames which were anglicised into Cox."
     }, 
-    "109": {
+    "120": {
       "mesh-name": "Proportional Hazards Models", 
       "wid": 5352267, 
       "mesh-tn": [
@@ -7642,7 +7630,7 @@
         "association (statistics)"
       ]
     }, 
-    "110": {
+    "121": {
       "mesh-name": "Angina, Stable", 
       "wid": 65862, 
       "mesh-tn": [
@@ -7759,24 +7747,131 @@
         "anemia"
       ]
     }, 
-    "111": {
-      "wid": 30796, 
-      "wiki-links": [
-        "rock (geology)", 
-        "Lebanon", 
-        "Arabic language", 
-        "Ancient Greek", 
-        "Akkadian language", 
-        "romanization", 
-        "Phoenician languages", 
-        "Tiberian Hebrew", 
-        "Beirut", 
-        "South Governorate, Lebanon"
+    "122": {
+      "mesh-name": "Disease-Free Survival", 
+      "wid": 15897243, 
+      "mesh-tn": [
+        "E01.789.200", 
+        "E05.318.740.998.300", 
+        "N05.715.360.750.795.300", 
+        "N06.850.520.830.998.300"
       ], 
-      "wiki-title": "Tyre, Lebanon", 
-      "wiki-text": "Tyre (Arabic: , '; Phoenician: , '; , \"Tzor\"; Tiberian Hebrew , '; Akkadian: \ud808\uded7\ud808\ude92 '; Greek: , \"T\u00fdros\"; ; ), sometimes romanized as Sour, is a city in the South Governorate of Lebanon. There were approximately 117,000 inhabitants in 2003. However, the government of Lebanon has released only rough estimates of population numbers since 1932, so an accurate statistical accounting is not possible. Tyre juts out from the coast of the Mediterranean and is located about south of Beirut. The name of the city means \"rock\" after the rocky formation on which the town was originally built. The adjective for Tyre is \"Tyrian\", and the inhabitants are \"Tyrians\"."
+      "mesh-synonyms": [
+        "Event-Free Survival", 
+        "Progression-Free Survival", 
+        "Survival, Disease-Free", 
+        "Disease Free Survival", 
+        "Disease-Free Survivals", 
+        "Event Free Survival", 
+        "Event-Free Survivals", 
+        "Progression Free Survival", 
+        "Progression-Free Survivals", 
+        "Survival, Disease Free", 
+        "Survival, Event-Free", 
+        "Survival, Progression-Free", 
+        "Survivals, Disease-Free", 
+        "Survivals, Event-Free", 
+        "Survivals, Progression-Free"
+      ], 
+      "mesh-id": "D018572", 
+      "wiki-text": "Progression-free survival (PFS) is a measure of the activity of a treatment on a disease. It is the time that passes from a certain date (generally the first day of treatment, or the day in which a patient is enrolled in a clinical trial) and the date on which disease \"progresses\" or the date on which the patient dies, from any cause. PFS can only be measured in patients in which a tumor is present (a similar term that applies to patients that have been successfully operated, and are therefore free from disease, is Disease-Free Survival).", 
+      "mesh-description": "Period after successful treatment in which there is no appearance of the symptoms or effects of the disease.", 
+      "mesh-parents": {
+        "E01.789.200": [
+          [
+            "D011379", 
+            "Prognosis", 
+            "E01.789"
+          ], 
+          [
+            "D003933", 
+            "Diagnosis", 
+            "E01"
+          ]
+        ], 
+        "N05.715.360.750.795.300": [
+          [
+            "D016019", 
+            "Survival Analysis", 
+            "N05.715.360.750.795"
+          ], 
+          [
+            "D013223", 
+            "Statistics as Topic", 
+            "N05.715.360.750"
+          ], 
+          [
+            "D017531", 
+            "Health Care Evaluation Mechanisms", 
+            "N05.715.360"
+          ], 
+          [
+            "D011787", 
+            "Quality of Health Care", 
+            "N05.715"
+          ], 
+          [
+            "D017530", 
+            "Health Care Quality, Access, and Evaluation", 
+            "N05"
+          ]
+        ], 
+        "E05.318.740.998.300": [
+          [
+            "D016019", 
+            "Survival Analysis", 
+            "E05.318.740.998"
+          ], 
+          [
+            "D013223", 
+            "Statistics as Topic", 
+            "E05.318.740"
+          ], 
+          [
+            "D004812", 
+            "Epidemiologic Methods", 
+            "E05.318"
+          ], 
+          [
+            "D008919", 
+            "Investigative Techniques", 
+            "E05"
+          ]
+        ], 
+        "N06.850.520.830.998.300": [
+          [
+            "D016019", 
+            "Survival Analysis", 
+            "N06.850.520.830.998"
+          ], 
+          [
+            "D013223", 
+            "Statistics as Topic", 
+            "N06.850.520.830"
+          ], 
+          [
+            "D004812", 
+            "Epidemiologic Methods", 
+            "N06.850.520"
+          ], 
+          [
+            "D011634", 
+            "Public Health", 
+            "N06.850"
+          ], 
+          [
+            "D004778", 
+            "Environment and Public Health", 
+            "N06"
+          ]
+        ]
+      }, 
+      "wiki-title": "Progression-free survival", 
+      "wiki-links": [
+        ""
+      ]
     }, 
-    "112": {
+    "123": {
       "mesh-name": "Neoplasm Metastasis", 
       "wid": 152509, 
       "mesh-tn": [
@@ -7833,7 +7928,7 @@
         "Greek (language)"
       ]
     }, 
-    "113": {
+    "124": {
       "mesh-name": "Recurrence", 
       "wid": 1662513, 
       "mesh-tn": [
@@ -7873,7 +7968,7 @@
         "Multiple sclerosis"
       ]
     }, 
-    "114": {
+    "125": {
       "mesh-name": "Abdominal Wall", 
       "wid": 3618404, 
       "mesh-tn": [
@@ -7909,7 +8004,7 @@
         "abdominal cavity"
       ]
     }, 
-    "115": {
+    "126": {
       "mesh-name": "Seroma", 
       "wid": 4421835, 
       "mesh-tn": [
@@ -7948,7 +8043,20 @@
         "inflammation"
       ]
     }, 
-    "116": {
+    "127": {
+      "wid": 1983847, 
+      "wiki-links": [
+        "committee", 
+        "research", 
+        "biomedical", 
+        "human", 
+        "behavioral", 
+        "risk-benefit analysis"
+      ], 
+      "wiki-title": "Institutional review board", 
+      "wiki-text": "An institutional review board (IRB), also known as an independent ethics committee (IEC), ethical review board (ERB) or research ethics board (REB), is a committee that has been formally designated to approve, monitor, and review biomedical and behavioral research involving humans. They often conduct some form of risk-benefit analysis in an attempt to determine whether or not research should be done."
+    }, 
+    "128": {
       "mesh-name": "Incidence", 
       "wid": 126587, 
       "mesh-tn": [
@@ -8106,7 +8214,7 @@
         ""
       ]
     }, 
-    "117": {
+    "129": {
       "mesh-name": "Diabetic Angiopathies", 
       "wid": 3167462, 
       "mesh-tn": [
@@ -8172,7 +8280,7 @@
         "Diabetic nephropathy"
       ]
     }, 
-    "118": {
+    "130": {
       "mesh-name": "Cellulitis", 
       "wid": 42664333, 
       "mesh-tn": [
@@ -8257,7 +8365,7 @@
         ]
       }
     }, 
-    "119": {
+    "131": {
       "mesh-name": "Hematoma", 
       "wid": 684811, 
       "mesh-tn": [
@@ -8297,7 +8405,31 @@
         "American and British English spelling differences"
       ]
     }, 
-    "120": {
+    "132": {
+      "wid": 6811, 
+      "wiki-links": [
+        "health promotion", 
+        "Federal agencies of the United States", 
+        "occupational safety and health", 
+        "Department of Health and Human Services", 
+        "unincorporated area", 
+        "public health", 
+        "Foodborne illness", 
+        "non-infectious diseases", 
+        "injury prevention", 
+        "International Association of National Public Health Institutes", 
+        "Greater Atlanta", 
+        "United States citizens", 
+        "DeKalb County, Georgia", 
+        "environmental health", 
+        "infectious disease", 
+        "obesity", 
+        "diabetes"
+      ], 
+      "wiki-title": "Centers for Disease Control and Prevention", 
+      "wiki-text": "The Centers for Disease Control and Prevention is the leading national public health institute of the United States. The CDC is a federal agency under the Department of Health and Human Services and is headquartered in unincorporated DeKalb County, Georgia, a few miles northeast of the Atlanta city limits. Its main goal is to protect public health and safety through the control and prevention of disease, injury, and disability. The CDC focuses national attention on developing and applying disease control and prevention. It especially focuses its attention on infectious disease, food borne pathogens, environmental health, occupational safety and health, health promotion, injury prevention and educational activities designed to improve the health of United States citizens. In addition, the CDC researches and provides information on non-infectious diseases such as obesity and diabetes and is a founding member of the International Association of National Public Health Institutes."
+    }, 
+    "133": {
       "mesh-name": "Wounds and Injuries", 
       "wid": 788093, 
       "mesh-tn": [
@@ -8328,7 +8460,7 @@
         "injury"
       ]
     }, 
-    "121": {
+    "134": {
       "mesh-name": "Logistic Models", 
       "wid": 226631, 
       "mesh-tn": [
@@ -8636,7 +8768,7 @@
         "dependent and independent variables"
       ]
     }, 
-    "122": {
+    "135": {
       "mesh-name": "Obesity", 
       "wid": 56435, 
       "mesh-tn": [
@@ -8774,7 +8906,7 @@
         "body mass index"
       ]
     }, 
-    "123": {
+    "136": {
       "mesh-name": "Body Mass Index", 
       "wid": 4788, 
       "mesh-tn": [
@@ -8888,7 +9020,7 @@
         ""
       ]
     }, 
-    "124": {
+    "137": {
       "mesh-name": "Operative Time", 
       "mesh-tn": [
         "E04.614.374.500", 
@@ -8960,7 +9092,7 @@
         ]
       }
     }, 
-    "125": {
+    "138": {
       "mesh-name": "Wound Infection", 
       "wid": 37220, 
       "mesh-tn": [
@@ -9001,7 +9133,7 @@
         "host (biology)"
       ]
     }, 
-    "126": {
+    "139": {
       "mesh-name": "Cockayne Syndrome", 
       "wid": 1493053, 
       "mesh-tn": [
@@ -9171,7 +9303,7 @@
         "nervous system"
       ]
     }, 
-    "127": {
+    "140": {
       "mesh-name": "Disease", 
       "wid": 8072, 
       "mesh-tn": [
@@ -9219,7 +9351,44 @@
         "syndrome"
       ]
     }, 
-    "128": {
+    "141": {
+      "wid": 384843, 
+      "wiki-links": [
+        "Alberta", 
+        "University of Alberta", 
+        "Edmonton", 
+        "Alberta Pandas", 
+        "Canada"
+      ], 
+      "wiki-title": "Alberta Golden Bears", 
+      "wiki-text": "The Alberta Golden Bears are the men's athletic teams that represent the University of Alberta in Edmonton, Alberta, Canada. The women's teams are known as the Alberta Pandas."
+    }, 
+    "142": {
+      "wid": 64803, 
+      "wiki-links": [
+        "Canada", 
+        "Frank Davey"
+      ], 
+      "wiki-title": "Canadian literature", 
+      "wiki-text": "Canadian literature is literature originating from Canada. Some criticism of Canadian literature has focused on nationalistic and regional themes, although this is only a small portion of Canadian Literary criticism. Critics against such thematic criticism in Canadian literature, such as Frank Davey, have argued that a focus on theme diminishes the appreciation of complexity of the literature produced in the country, and creates the impression that Canadian literature is sociologically-oriented. While Canadian literature, like the literature of every nation state, is influenced by its socio-political contexts, Canadian writers have produced a variety of genres. Influences on Canadian writers are broad, both geographically and historically."
+    }, 
+    "143": {
+      "wid": 3812150, 
+      "wiki-links": [
+        "soil conservation", 
+        "World War II", 
+        "alternative service", 
+        "Natural Resources Conservation Service", 
+        "National Park Service", 
+        "Peace Churches", 
+        "Puerto Rico", 
+        "conscientious objectors", 
+        "United States Forest Service"
+      ], 
+      "wiki-title": "Civilian Public Service", 
+      "wiki-text": "The Civilian Public Service (CPS) was a program of the United States government that provided conscientious objectors with an alternative to military service during World War II. From 1941 to 1947, nearly 12,000 draftees, willing to serve their country in some capacity but unwilling to perform any type of military service, accepted assignments in \"work of national importance\" in 152 CPS camps throughout the United States and Puerto Rico. Draftees from the historic peace churches and other faiths worked in areas such as soil conservation, forestry, fire fighting, agriculture, under the supervision of such agencies as the U.S. Forest Service, the Soil Conservation Service, and the National Park Service. Others helped provide social services and mental health services."
+    }, 
+    "144": {
       "mesh-name": "Rosa", 
       "wid": 26537, 
       "mesh-tn": [
@@ -9296,7 +9465,44 @@
         "Rose species"
       ]
     }, 
-    "129": {
+    "145": {
+      "wid": 10090, 
+      "wiki-links": [
+        "Eli Lilly and Company", 
+        "neonatal conjunctivitis", 
+        "antibiotic", 
+        "prodrug", 
+        "macrolide", 
+        "allergy", 
+        "prescription drug", 
+        "Mycoplasma", 
+        "bacterial", 
+        "legionellosis", 
+        "penicillin"
+      ], 
+      "wiki-title": "Erythromycin", 
+      "wiki-text": "Erythromycin is an antibiotic useful for the treatment of a number of bacterial infections. It is in the macrolide class and has an antimicrobial spectrum similar to or slightly wider than that of penicillin, and is often prescribed for people who have an allergy to penicillins. For respiratory tract infections, it has better coverage of atypical organisms, including \"Mycoplasma\" and \"Legionella\". It was first marketed by Eli Lilly and Company, and it is today commonly known as erythromycin ethylsuccinate (EES), a commonly administered ester prodrug. It is commonly applied after delivery to the eyes of newborns to prevent neonatal conjunctivitis. It is used as an alternative treatment to treat sexually transmitted diseases."
+    }, 
+    "146": {
+      "wid": 635885, 
+      "wiki-links": [
+        "anaerobic organism", 
+        "lincosamides", 
+        "antibiotic", 
+        "methicillin-resistant Staphylococcus aureus", 
+        "malaria", 
+        "International Nonproprietary Name", 
+        "acne", 
+        "infection", 
+        "topical", 
+        "protozoa", 
+        "ribosomes", 
+        "bacteria"
+      ], 
+      "wiki-title": "Clindamycin", 
+      "wiki-text": "Clindamycin rINN is an antibiotic of the lincosamide class, which blocks the ribosomes of microorganisms. It is usually used to treat infections with anaerobic bacteria, but can also be used to treat protozoal diseases, such as malaria. It is a common topical treatment for acne and can be useful against some methicillin-resistant \"Staphylococcus aureus\" (MRSA) infections."
+    }, 
+    "147": {
       "mesh-name": "Erythromycin", 
       "wid": 10090, 
       "mesh-tn": [
@@ -9354,7 +9560,7 @@
         "penicillin"
       ]
     }, 
-    "130": {
+    "148": {
       "mesh-name": "Clindamycin", 
       "wid": 635885, 
       "mesh-tn": [
@@ -9446,7 +9652,7 @@
         "bacteria"
       ]
     }, 
-    "131": {
+    "149": {
       "mesh-name": "Arthritis, Rheumatoid", 
       "wid": 25875, 
       "mesh-tn": [
@@ -9529,8 +9735,8 @@
         "inflammation"
       ]
     }, 
-    "132": {}, 
-    "133": {
+    "150": {}, 
+    "151": {
       "mesh-name": "Genetic Association Studies", 
       "mesh-tn": [
         "E05.393.385"
@@ -9584,7 +9790,7 @@
         ]
       }
     }, 
-    "134": {
+    "152": {
       "mesh-name": "Family", 
       "wid": 223979, 
       "mesh-tn": [
@@ -9657,7 +9863,7 @@
         ""
       ]
     }, 
-    "135": {
+    "153": {
       "mesh-name": "Waste Water", 
       "wid": 216928, 
       "mesh-tn": [
@@ -9727,7 +9933,7 @@
         "human waste"
       ]
     }, 
-    "136": {
+    "154": {
       "mesh-name": "Giardia", 
       "wid": 140970, 
       "mesh-tn": [
@@ -9772,7 +9978,7 @@
         "Microbial cyst"
       ]
     }, 
-    "137": {
+    "155": {
       "mesh-name": "Cryptosporidium", 
       "wid": 2206845, 
       "mesh-tn": [
@@ -9825,7 +10031,7 @@
         "apicomplexa"
       ]
     }, 
-    "138": {
+    "156": {
       "mesh-name": "Disease Outbreaks", 
       "wid": 288321, 
       "mesh-tn": [
@@ -9869,7 +10075,7 @@
         "pandemic"
       ]
     }, 
-    "139": {
+    "157": {
       "mesh-name": "Cysts", 
       "wid": 188222, 
       "mesh-tn": [
@@ -9915,7 +10121,7 @@
         "pus"
       ]
     }, 
-    "140": {
+    "158": {
       "mesh-name": "Oocysts", 
       "wid": 2077242, 
       "mesh-tn": [
@@ -10017,7 +10223,7 @@
         ""
       ]
     }, 
-    "141": {
+    "159": {
       "mesh-name": "Sewage", 
       "wid": 44275839, 
       "mesh-tn": [
@@ -10053,7 +10259,46 @@
         "sewage sludge"
       ]
     }, 
-    "142": {
+    "160": {
+      "wid": 63514, 
+      "wiki-links": [
+        "Brazil", 
+        "List of cities in Brazil by population", 
+        "S\u00e3o Paulo (state)", 
+        "metropolitan area", 
+        "Municipalities of Brazil", 
+        "Southeast Region, Brazil"
+      ], 
+      "wiki-title": "Campinas", 
+      "wiki-text": "Campinas (, \"Plains\" or \"Meadows\") is a Brazilian municipality in S\u00e3o Paulo State, part of the country's Southeast Region. According to the 2010 Census, the city's population is 1,080,999, making it the fourteenth most populous Brazilian city and the third most populous municipality in S\u00e3o Paulo state. The city's metropolitan area, Greater Campinas, contains nineteen municipalities with a total population of 2,232,297 people."
+    }, 
+    "161": {
+      "wid": 2598622, 
+      "wiki-links": [
+        "Brazil", 
+        "French aircraft carrier Foch (R99)", 
+        "Brazilian Navy", 
+        "flagship", 
+        "Clemenceau class aircraft carrier", 
+        "aircraft carrier", 
+        "French Navy"
+      ], 
+      "wiki-title": "Brazilian aircraft carrier S\u00e3o Paulo (A12)", 
+      "wiki-text": "NAe S\u00e3o Paulo is a \"Clemenceau\"-class aircraft carrier currently in service with the Brazilian Navy. The \"S\u00e3o Paulo\" was first commissioned in 1963 by the French Navy as the \"Foch\" and was transferred in 2000 to Brazil, where she became the new flagship of the Brazilian Navy. In December 2014 it was announced that \"S\u00e3o Paulo\" will be expected to continue active service until 2039, at which time the vessel will be nearly 80 years old. IHS Janes reported that during its career with the Brazilian Navy, \"S\u00e3o Paulo\" has suffered from servicability issues and has never managed to operate for more than three months at a time without the need for repairs and maintenance."
+    }, 
+    "162": {
+      "wid": 4929439, 
+      "wiki-links": [
+        "Brazil", 
+        "Rugby World Cup", 
+        "rugby union", 
+        "Argentina", 
+        "Uruguay"
+      ], 
+      "wiki-title": "Brazil national rugby union team", 
+      "wiki-text": "The Brazil national rugby union team (nicknamed \"Os Tupis\") is the national side of Brazil, representing them at rugby union. Brazil is a third tier rugby union side, and have yet to make their debut at the Rugby World Cup. Rugby union has been growing substantially in Brazil since 2005 and the number of players is currently estimated at over 16,000. Despite that, the sport in the country is still less successful than it is in their neighbors, such as Argentina and Uruguay."
+    }, 
+    "163": {
       "mesh-name": "Laboratories", 
       "wid": 173351, 
       "mesh-tn": [
@@ -10086,7 +10331,7 @@
         "measurement"
       ]
     }, 
-    "143": {
+    "164": {
       "mesh-name": "Euplotes", 
       "wid": 327501, 
       "mesh-tn": [
@@ -10140,7 +10385,7 @@
         "cell division"
       ]
     }, 
-    "144": {
+    "165": {
       "mesh-name": "Oxytricha", 
       "wid": 41296821, 
       "mesh-tn": [
@@ -10190,6 +10435,21 @@
       "wiki-links": [
         "Oxytrichidae"
       ]
+    }, 
+    "166": {
+      "wid": 81998, 
+      "wiki-links": [
+        "Homer", 
+        "Greek language", 
+        "Greek mythology", 
+        "Hera", 
+        "Iliad", 
+        "Trojan War", 
+        ":wiktionary:stentorian", 
+        "Hermes"
+      ], 
+      "wiki-title": "Stentor", 
+      "wiki-text": "In Greek mythology, Stentor (Greek: \u03a3\u03c4\u03ad\u03bd\u03c4\u03c9\u03c1; \"gen\".: \u03a3\u03c4\u03ad\u03bd\u03c4\u03bf\u03c1\u03bf\u03c2) was a herald of the Greek forces during the Trojan War. Although he is mentioned only briefly in Homer's \"Iliad\", in which Hera takes Stentor's character to encourage the Greeks to fight, his name has been living in the term \"stentorian\" voice, meaning loud-voiced, for which he was famous: Homer said his \"voice was as powerful as fifty voices of other men\". Elsewhere, he is said to have died after his defeat by Hermes in a shouting contest."
     }
   }, 
   "type": [
@@ -10329,9 +10589,12 @@
     "ORG", 
     "Chemical", 
     "Disease", 
+    "MISC", 
+    "Disease", 
+    "MISC", 
     "Disease", 
     "Disease", 
-    "Disease", 
+    "MISC", 
     "Disease", 
     "Disease", 
     "Disease", 
@@ -10355,7 +10618,6 @@
     "Disease", 
     "Disease", 
     "Organism", 
-    "Organism", 
     "Anatomy", 
     "Disease", 
     "Disease", 
@@ -10368,32 +10630,24 @@
     "Disease", 
     "Disease", 
     "Disease", 
-    "Disease", 
+    "Psychology", 
+    "MISC", 
+    "MISC", 
     "Disease", 
     "Psychology", 
     "MISC", 
     "MISC", 
     "Disease", 
-    "Disease", 
-    "Psychology", 
     "MISC", 
-    "MISC", 
-    "Disease", 
-    "Disease", 
-    "MISC", 
-    "Disease", 
-    "Disease", 
     "Disease", 
     "Disease", 
     "Psychology", 
     "MISC", 
     "Disease", 
-    "Disease", 
+    "MISC", 
     "MISC", 
     "Disease", 
-    "Disease", 
     "MISC", 
-    "Disease", 
     "Disease", 
     "MISC", 
     "MISC", 
@@ -10403,20 +10657,23 @@
     "Disease", 
     "MISC", 
     "MISC", 
-    "Psychology", 
     "MISC", 
     "Psychology", 
     "MISC", 
+    "Psychology", 
+    "MISC", 
+    "MISC", 
     "MISC", 
     "Psychology", 
     "Psychology", 
-    "Psychology", 
-    "Disease", 
-    "Disease", 
     "Disease", 
     "Disease", 
     "Psychology", 
+    "Disease", 
+    "Disease", 
     "Psychology", 
+    "Psychology", 
+    "Disease", 
     "Disease", 
     "MISC", 
     "MISC", 
@@ -10432,7 +10689,6 @@
     "ORG", 
     "Disease", 
     "Disease", 
-    "Organism", 
     "MISC", 
     "MISC", 
     "Disease", 
@@ -10447,27 +10703,24 @@
     "MISC", 
     "MISC", 
     "Disease", 
-    "Organism", 
+    "MISC", 
     "MISC", 
     "Disease", 
-    "Organism", 
     "Disease", 
-    "Organism", 
+    "Psychology", 
     "ORG", 
     "ORG", 
     "LOC", 
     "Disease", 
-    "MISC", 
     "MISC", 
     "Psychology", 
     "Disease", 
-    "Organism", 
     "MISC", 
     "Disease", 
-    "Organism", 
     "MISC", 
     "MISC", 
     "Disease", 
+    "MISC", 
     "MISC", 
     "Disease", 
     "Disease", 
@@ -10481,8 +10734,8 @@
     "Disease", 
     "Disease", 
     "Disease", 
+    "MISC", 
     "ORG", 
-    "Disease", 
     "Disease", 
     "Disease", 
     "Disease", 
@@ -10491,7 +10744,6 @@
     "Disease", 
     "Anatomy", 
     "Disease", 
-    "Disease", 
     "ORG", 
     "MISC", 
     "Disease", 
@@ -10501,20 +10753,17 @@
     "Disease", 
     "Disease", 
     "Disease", 
-    "Disease", 
     "ORG", 
     "Disease", 
-    "Disease", 
+    "MISC", 
     "Disease", 
     "Disease", 
     "Disease", 
     "MISC", 
     "Disease", 
-    "Disease", 
     "MISC", 
     "MISC", 
     "MISC", 
-    "Disease", 
     "Disease", 
     "Disease", 
     "Disease", 
@@ -10539,22 +10788,20 @@
     "Organism", 
     "LOC", 
     "Chemical", 
-    "Chemical", 
     "Organism", 
     "Chemical", 
-    "Chemical", 
     "LOC", 
     "LOC", 
     "Disease", 
     "Chemical", 
     "Chemical", 
-    "Chemical", 
     "Disease", 
     "Disease", 
     "Disease", 
     "Disease", 
     "Disease", 
     "Disease", 
+    "MISC", 
     "Disease", 
     "MISC", 
     "Disease", 
@@ -10579,8 +10826,6 @@
     "Disease", 
     "Anatomy", 
     "Organism", 
-    "Organism", 
-    "Disease", 
     "Organism", 
     "Disease", 
     "Psychology"
@@ -10598,7 +10843,7 @@
     7, 
     1, 
     2, 
-    -1, 
+    4, 
     8, 
     0, 
     9, 
@@ -10613,7 +10858,7 @@
     5, 
     2, 
     3, 
-    -1, 
+    4, 
     11, 
     -1, 
     -1, 
@@ -10628,355 +10873,340 @@
     12, 
     17, 
     18, 
+    19, 
+    20, 
+    -1, 
+    21, 
+    22, 
+    -1, 
+    19, 
+    23, 
+    11, 
+    24, 
+    25, 
+    -1, 
+    25, 
+    26, 
+    27, 
+    25, 
+    28, 
+    27, 
+    27, 
+    25, 
+    25, 
+    29, 
+    -1, 
+    30, 
+    31, 
+    12, 
+    -1, 
+    12, 
     -1, 
     19, 
     -1, 
-    20, 
-    21, 
-    -1, 
-    -1, 
-    22, 
-    11, 
-    23, 
-    24, 
-    -1, 
-    24, 
-    -1, 
-    25, 
-    24, 
-    26, 
-    25, 
-    25, 
-    24, 
-    24, 
-    -1, 
-    -1, 
-    27, 
-    28, 
-    12, 
-    -1, 
-    12, 
-    -1, 
-    -1, 
-    -1, 
-    29, 
-    30, 
-    31, 
-    -1, 
-    -1, 
-    -1, 
     32, 
-    32, 
-    6, 
-    30, 
-    32, 
-    32, 
-    6, 
-    -1, 
-    1, 
-    30, 
-    30, 
-    30, 
     33, 
     34, 
-    30, 
     35, 
-    6, 
-    36, 
-    37, 
-    37, 
     36, 
     37, 
     38, 
+    38, 
+    6, 
+    33, 
+    38, 
+    38, 
+    6, 
+    -1, 
+    1, 
+    33, 
+    33, 
+    33, 
     39, 
     40, 
-    37, 
-    40, 
+    33, 
     41, 
-    37, 
-    37, 
+    6, 
     42, 
     43, 
-    44, 
+    43, 
+    42, 
+    43, 
     44, 
     45, 
+    46, 
     43, 
-    44, 
-    40, 
-    6, 
-    39, 
-    42, 
     46, 
     47, 
-    42, 
-    40, 
+    43, 
+    43, 
     48, 
-    42, 
-    37, 
-    -1, 
-    -1, 
     49, 
     50, 
+    50, 
     51, 
-    52, 
-    -1, 
-    53, 
-    52, 
-    52, 
-    52, 
-    52, 
-    52, 
     49, 
+    50, 
+    46, 
+    6, 
+    45, 
+    48, 
     52, 
+    53, 
+    48, 
+    46, 
     54, 
+    48, 
+    43, 
     55, 
-    54, 
     56, 
     57, 
-    1, 
     58, 
     59, 
     60, 
     61, 
     62, 
-    56, 
+    60, 
     63, 
-    59, 
-    64, 
+    60, 
+    63, 
+    60, 
+    60, 
+    63, 
+    60, 
+    57, 
+    60, 
     64, 
     65, 
-    66, 
+    64, 
     66, 
     67, 
-    68, 
-    57, 
-    69, 
     1, 
-    62, 
-    59, 
+    68, 
+    69, 
     70, 
-    57, 
-    71, 
-    71, 
     71, 
     72, 
+    66, 
     73, 
-    73, 
-    73, 
+    69, 
+    74, 
     74, 
     75, 
     76, 
-    73, 
-    73, 
+    76, 
     77, 
-    45, 
-    45, 
-    73, 
-    73, 
-    45, 
-    73, 
-    73, 
-    73, 
-    73, 
+    67, 
     78, 
-    45, 
-    73, 
-    73, 
+    1, 
+    72, 
+    69, 
     79, 
-    73, 
-    73, 
+    67, 
     80, 
-    73, 
-    73, 
-    45, 
+    80, 
     81, 
-    81, 
+    82, 
     82, 
     83, 
     84, 
-    76, 
     85, 
-    83, 
-    85, 
-    83, 
+    82, 
     86, 
+    51, 
+    51, 
+    82, 
+    51, 
+    82, 
+    82, 
     87, 
-    83, 
-    83, 
-    74, 
+    51, 
+    82, 
     88, 
+    51, 
+    82, 
     89, 
+    82, 
+    51, 
+    90, 
     90, 
     91, 
     92, 
     93, 
+    85, 
     94, 
     95, 
-    87, 
-    95, 
-    83, 
-    85, 
+    92, 
+    94, 
+    92, 
     96, 
     97, 
-    76, 
-    75, 
-    76, 
-    -1, 
-    -1, 
-    1, 
-    96, 
-    98, 
-    99, 
-    75, 
-    96, 
-    -1, 
-    -1, 
-    45, 
-    -1, 
-    -1, 
-    96, 
-    96, 
-    -1, 
     95, 
-    45, 
-    96, 
+    92, 
+    92, 
     98, 
     99, 
-    96, 
-    98, 
-    96, 
-    98, 
-    -1, 
-    -1, 
     100, 
-    96, 
     101, 
-    45, 
-    35, 
-    96, 
-    98, 
-    99, 
-    96, 
-    98, 
     102, 
     103, 
-    49, 
     104, 
     105, 
-    105, 
-    105, 
-    104, 
     106, 
-    49, 
+    95, 
+    97, 
+    95, 
+    92, 
+    94, 
     107, 
     108, 
+    85, 
+    84, 
+    85, 
     109, 
-    49, 
     110, 
-    110, 
+    1, 
+    107, 
     111, 
+    84, 
+    107, 
+    110, 
+    108, 
+    51, 
+    110, 
+    108, 
+    107, 
+    107, 
+    110, 
+    95, 
+    51, 
+    107, 
+    111, 
+    95, 
+    107, 
+    107, 
     112, 
-    112, 
+    109, 
+    110, 
+    108, 
+    107, 
+    51, 
+    41, 
+    107, 
+    111, 
+    107, 
     113, 
-    110, 
-    110, 
-    110, 
-    49, 
     114, 
+    57, 
     115, 
-    115, 
-    -1, 
+    51, 
     116, 
+    116, 
+    116, 
+    115, 
     117, 
-    117, 
+    57, 
     118, 
-    115, 
     119, 
-    1, 
-    1, 
-    1, 
-    -1, 
     120, 
-    115, 
-    119, 
-    119, 
-    117, 
+    57, 
+    121, 
     121, 
     122, 
-    122, 
+    -1, 
     123, 
     124, 
-    123, 
-    120, 
-    117, 
+    121, 
+    121, 
+    121, 
+    57, 
     125, 
-    1, 
-    126, 
     126, 
     127, 
-    35, 
-    126, 
-    76, 
-    75, 
-    126, 
-    55, 
-    35, 
-    -1, 
-    126, 
-    -1, 
-    -1, 
-    116, 
-    -1, 
-    -1, 
-    126, 
     128, 
-    -1, 
-    -1, 
     129, 
-    128, 
-    -1, 
-    130, 
-    -1, 
-    -1, 
-    126, 
     129, 
     130, 
-    130, 
+    126, 
     131, 
-    131, 
-    131, 
-    131, 
+    1, 
+    1, 
     132, 
-    131, 
-    131, 
     133, 
-    132, 
+    128, 
+    126, 
+    131, 
+    129, 
     134, 
-    35, 
-    131, 
-    131, 
     135, 
     136, 
     137, 
+    136, 
+    133, 
+    129, 
     138, 
     139, 
+    139, 
     140, 
+    41, 
+    139, 
+    85, 
+    84, 
+    139, 
+    65, 
+    41, 
     141, 
-    -1, 
-    -1, 
-    -1, 
+    139, 
+    141, 
     142, 
+    128, 
     143, 
-    144, 
     -1, 
     139, 
-    140, 
-    136, 
-    137, 
+    144, 
+    141, 
+    145, 
+    144, 
+    146, 
+    141, 
+    142, 
     139, 
-    136, 
-    139, 
-    35
+    147, 
+    148, 
+    149, 
+    149, 
+    149, 
+    149, 
+    150, 
+    149, 
+    95, 
+    149, 
+    151, 
+    150, 
+    152, 
+    41, 
+    149, 
+    149, 
+    153, 
+    154, 
+    155, 
+    156, 
+    157, 
+    158, 
+    159, 
+    160, 
+    161, 
+    162, 
+    163, 
+    164, 
+    165, 
+    166, 
+    157, 
+    158, 
+    154, 
+    155, 
+    157, 
+    41
   ], 
   "spans": [
     [
@@ -11000,8 +11230,8 @@
       139
     ], 
     [
-      143, 
-      152
+      142, 
+      151
     ], 
     [
       187, 
@@ -11012,76 +11242,76 @@
       218
     ], 
     [
-      314, 
-      318
+      313, 
+      317
     ], 
     [
-      397, 
-      404
+      396, 
+      403
     ], 
     [
       416, 
       424
     ], 
     [
-      436, 
-      446
+      435, 
+      445
     ], 
     [
       455, 
       457
     ], 
     [
-      520, 
-      527
+      519, 
+      526
     ], 
     [
       579, 
       581
     ], 
     [
-      584, 
-      591
+      583, 
+      590
     ], 
     [
-      608, 
-      615
+      607, 
+      614
     ], 
     [
-      685, 
-      695
+      684, 
+      694
     ], 
     [
-      731, 
-      735
+      730, 
+      734
     ], 
     [
-      870, 
-      877
+      869, 
+      876
     ], 
     [
-      929, 
-      933
+      928, 
+      932
     ], 
     [
-      967, 
-      976
+      966, 
+      975
     ], 
     [
-      1082, 
-      1091
+      1081, 
+      1090
     ], 
     [
-      1242, 
-      1252
+      1241, 
+      1251
     ], 
     [
-      1334, 
-      1343
+      1333, 
+      1342
     ], 
     [
-      1358, 
-      1368
+      1357, 
+      1367
     ], 
     [
       1374, 
@@ -11092,8 +11322,8 @@
       1402
     ], 
     [
-      1453, 
-      1475
+      1452, 
+      1474
     ], 
     [
       1590, 
@@ -11104,16 +11334,16 @@
       1655
     ], 
     [
-      1692, 
-      1714
+      1691, 
+      1713
     ], 
     [
-      1721, 
-      1731
+      1720, 
+      1730
     ], 
     [
-      1775, 
-      1785
+      1774, 
+      1784
     ], 
     [
       1850, 
@@ -11140,32 +11370,32 @@
       2033
     ], 
     [
-      2215, 
-      2219
+      2213, 
+      2217
     ], 
     [
-      2338, 
-      2352
+      2336, 
+      2350
     ], 
     [
       2353, 
       2357
     ], 
     [
-      2380, 
-      2391
+      2378, 
+      2389
     ], 
     [
       2403, 
       2408
     ], 
     [
-      2420, 
-      2434
+      2418, 
+      2432
     ], 
     [
-      2465, 
-      2469
+      2463, 
+      2467
     ], 
     [
       2477, 
@@ -11176,60 +11406,60 @@
       2495
     ], 
     [
-      2587, 
-      2593
+      2585, 
+      2591
     ], 
     [
-      2618, 
-      2640
+      2616, 
+      2638
     ], 
     [
-      2651, 
-      2655
+      2649, 
+      2653
     ], 
     [
-      2678, 
-      2682
+      2676, 
+      2680
     ], 
     [
       2691, 
       2701
     ], 
     [
-      2747, 
-      2751
+      2745, 
+      2749
     ], 
     [
       2783, 
       2785
     ], 
     [
-      2798, 
-      2803
+      2796, 
+      2801
     ], 
     [
-      2863, 
-      2867
+      2861, 
+      2865
     ], 
     [
-      2920, 
-      2939
+      2918, 
+      2937
     ], 
     [
-      2941, 
-      2946
+      2939, 
+      2944
     ], 
     [
-      2985, 
-      2990
+      2983, 
+      2988
     ], 
     [
-      3062, 
-      3066
+      3060, 
+      3064
     ], 
     [
-      3143, 
-      3147
+      3141, 
+      3145
     ], 
     [
       3173, 
@@ -11240,12 +11470,12 @@
       3200
     ], 
     [
-      3233, 
-      3240
+      3231, 
+      3238
     ], 
     [
-      3249, 
-      3253
+      3247, 
+      3251
     ], 
     [
       3256, 
@@ -11276,12 +11506,12 @@
       3691
     ], 
     [
-      3744, 
-      3755
+      3741, 
+      3752
     ], 
     [
-      3814, 
-      3822
+      3811, 
+      3819
     ], 
     [
       3824, 
@@ -11304,12 +11534,12 @@
       3922
     ], 
     [
-      4011, 
-      4017
+      4008, 
+      4014
     ], 
     [
-      4078, 
-      4089
+      4075, 
+      4086
     ], 
     [
       4141, 
@@ -11320,8 +11550,8 @@
       4164
     ], 
     [
-      4306, 
-      4312
+      4303, 
+      4309
     ], 
     [
       4315, 
@@ -11332,36 +11562,36 @@
       4404
     ], 
     [
-      4465, 
-      4476
+      4462, 
+      4473
     ], 
     [
-      4634, 
-      4643
+      4631, 
+      4640
     ], 
     [
-      4859, 
-      4870
+      4856, 
+      4867
     ], 
     [
-      4942, 
-      4954
+      4939, 
+      4951
     ], 
     [
-      5112, 
-      5120
+      5109, 
+      5117
     ], 
     [
-      5286, 
-      5297
+      5283, 
+      5294
     ], 
     [
-      5338, 
-      5350
+      5335, 
+      5347
     ], 
     [
-      5375, 
-      5379
+      5371, 
+      5375
     ], 
     [
       5412, 
@@ -11384,28 +11614,28 @@
       5554
     ], 
     [
-      5690, 
-      5700
+      5686, 
+      5696
     ], 
     [
-      5734, 
-      5737
+      5730, 
+      5733
     ], 
     [
-      5828, 
-      5847
+      5824, 
+      5843
     ], 
     [
       5860, 
       5862
     ], 
     [
-      5882, 
-      5901
+      5878, 
+      5897
     ], 
     [
-      5929, 
-      5934
+      5925, 
+      5930
     ], 
     [
       5941, 
@@ -11416,72 +11646,72 @@
       5976
     ], 
     [
-      5990, 
-      5997
+      5986, 
+      5993
     ], 
     [
       6031, 
       6040
     ], 
     [
-      6059, 
-      6067
+      6055, 
+      6063
     ], 
     [
-      6080, 
-      6088
+      6076, 
+      6084
     ], 
     [
-      6126, 
-      6134
+      6122, 
+      6130
     ], 
     [
       6137, 
       6146
     ], 
     [
-      6165, 
-      6173
+      6161, 
+      6169
     ], 
     [
-      6212, 
-      6231
+      6208, 
+      6227
     ], 
     [
-      6354, 
-      6358
+      6350, 
+      6354
     ], 
     [
-      6367, 
-      6370
+      6363, 
+      6366
     ], 
     [
-      6389, 
-      6396
+      6385, 
+      6392
     ], 
     [
-      6410, 
-      6419
+      6406, 
+      6415
     ], 
     [
-      6476, 
-      6479
+      6472, 
+      6475
     ], 
     [
-      6491, 
-      6497
+      6487, 
+      6493
     ], 
     [
-      6565, 
-      6584
+      6561, 
+      6580
     ], 
     [
-      6697, 
-      6706
+      6693, 
+      6702
     ], 
     [
-      6736, 
-      6742
+      6732, 
+      6738
     ], 
     [
       6749, 
@@ -11496,8 +11726,8 @@
       6794
     ], 
     [
-      6801, 
-      6806
+      6796, 
+      6801
     ], 
     [
       6879, 
@@ -11516,16 +11746,24 @@
       6996
     ], 
     [
-      7021, 
-      7029
+      7016, 
+      7024
     ], 
     [
       7048, 
       7062
     ], 
     [
+      7100, 
+      7114
+    ], 
+    [
       7119, 
       7133
+    ], 
+    [
+      7203, 
+      7217
     ], 
     [
       7222, 
@@ -11534,6 +11772,10 @@
     [
       7274, 
       7288
+    ], 
+    [
+      7308, 
+      7322
     ], 
     [
       7327, 
@@ -11548,24 +11790,24 @@
       7446
     ], 
     [
-      7627, 
-      7636
+      7622, 
+      7631
     ], 
     [
-      7778, 
-      7786
+      7773, 
+      7781
     ], 
     [
-      8007, 
-      8016
+      8002, 
+      8011
     ], 
     [
       8133, 
       8144
     ], 
     [
-      8159, 
-      8172
+      8153, 
+      8166
     ], 
     [
       8202, 
@@ -11588,16 +11830,16 @@
       8382
     ], 
     [
-      8463, 
-      8476
+      8457, 
+      8470
     ], 
     [
-      8559, 
-      8570
+      8553, 
+      8564
     ], 
     [
-      8626, 
-      8631
+      8620, 
+      8625
     ], 
     [
       8700, 
@@ -11625,15 +11867,11 @@
     ], 
     [
       8934, 
-      8936
+      8948
     ], 
     [
-      8940, 
-      8954
-    ], 
-    [
-      8995, 
-      9008
+      8989, 
+      9002
     ], 
     [
       9026, 
@@ -11644,20 +11882,20 @@
       9072
     ], 
     [
-      9085, 
-      9098
+      9079, 
+      9092
     ], 
     [
       9261, 
       9271
     ], 
     [
-      9309, 
-      9331
+      9303, 
+      9325
     ], 
     [
-      9340, 
-      9353
+      9334, 
+      9347
     ], 
     [
       9388, 
@@ -11666,10 +11904,6 @@
     [
       9400, 
       9404
-    ], 
-    [
-      9406, 
-      9410
     ], 
     [
       9416, 
@@ -11684,160 +11918,140 @@
       9478
     ], 
     [
-      9482, 
-      9485
+      9481, 
+      9487
     ], 
     [
-      9488, 
-      9494
+      9515, 
+      9524
     ], 
     [
-      9522, 
-      9531
-    ], 
-    [
-      9551, 
-      9560
+      9544, 
+      9553
     ], 
     [
       9565, 
       9568
     ], 
     [
-      9572, 
-      9575
+      9652, 
+      9668
     ], 
     [
-      9659, 
-      9675
+      9671, 
+      9681
     ], 
     [
-      9678, 
-      9688
-    ], 
-    [
-      9821, 
-      9829
+      9814, 
+      9822
     ], 
     [
       9890, 
       9893
     ], 
     [
-      9897, 
-      9900
-    ], 
-    [
-      10017, 
-      10025
+      10010, 
+      10018
     ], 
     [
       10206, 
       10209
     ], 
     [
-      10213, 
-      10216
-    ], 
-    [
       10266, 
       10269
     ], 
     [
-      10273, 
-      10276
+      10275, 
+      10291
     ], 
     [
-      10282, 
-      10298
-    ], 
-    [
-      10343, 
-      10353
+      10336, 
+      10346
     ], 
     [
       10437, 
       10440
     ], 
     [
-      10444, 
-      10447
+      10527, 
+      10540
     ], 
     [
-      10534, 
-      10547
+      10638, 
+      10649
     ], 
     [
       10655, 
       10658
     ], 
     [
-      10662, 
-      10665
-    ], 
-    [
-      10676, 
-      10696
+      10669, 
+      10689
     ], 
     [
       10835, 
       10838
     ], 
     [
-      10842, 
-      10845
+      10840, 
+      10846
     ], 
     [
-      10847, 
-      10853
+      10893, 
+      10912
     ], 
     [
-      10900, 
-      10919
+      11018, 
+      11037
     ], 
     [
-      11025, 
-      11044
-    ], 
-    [
-      11072, 
-      11080
+      11065, 
+      11073
     ], 
     [
       11144, 
       11153
     ], 
     [
-      11168, 
-      11182
+      11160, 
+      11174
     ], 
     [
-      11196, 
-      11205
+      11188, 
+      11197
     ], 
     [
-      11491, 
-      11501
+      11483, 
+      11493
+    ], 
+    [
+      11554, 
+      11562
     ], 
     [
       11567, 
       11576
     ], 
     [
-      11594, 
-      11604
+      11586, 
+      11596
     ], 
     [
       11671, 
       11680
     ], 
     [
-      11705, 
-      11716
+      11697, 
+      11708
     ], 
     [
-      11809, 
-      11820
+      11801, 
+      11812
+    ], 
+    [
+      11831, 
+      11839
     ], 
     [
       11844, 
@@ -11848,16 +12062,16 @@
       12003
     ], 
     [
-      12008, 
-      12011
-    ], 
-    [
       12012, 
       12029
     ], 
     [
       12034, 
       12042
+    ], 
+    [
+      12068, 
+      12072
     ], 
     [
       12075, 
@@ -11868,36 +12082,40 @@
       12097
     ], 
     [
-      12120, 
-      12126
+      12112, 
+      12118
     ], 
     [
-      12131, 
-      12135
+      12123, 
+      12127
+    ], 
+    [
+      12130, 
+      12136
     ], 
     [
       12141, 
       12151
     ], 
     [
-      12186, 
-      12194
+      12178, 
+      12186
     ], 
     [
-      12284, 
-      12295
+      12276, 
+      12287
     ], 
     [
-      12373, 
-      12381
+      12365, 
+      12373
     ], 
     [
       12413, 
       12422
     ], 
     [
-      12442, 
-      12452
+      12434, 
+      12444
     ], 
     [
       12498, 
@@ -11908,16 +12126,16 @@
       12517
     ], 
     [
-      12618, 
-      12627
+      12609, 
+      12618
     ], 
     [
-      12654, 
-      12663
+      12645, 
+      12654
     ], 
     [
-      12665, 
-      12674
+      12656, 
+      12665
     ], 
     [
       12689, 
@@ -11936,16 +12154,12 @@
       12775
     ], 
     [
-      12782, 
-      12784
+      12777, 
+      12793
     ], 
     [
-      12786, 
-      12802
-    ], 
-    [
-      12818, 
-      12828
+      12809, 
+      12819
     ], 
     [
       12927, 
@@ -11960,8 +12174,8 @@
       12957
     ], 
     [
-      13041, 
-      13047
+      13032, 
+      13038
     ], 
     [
       13119, 
@@ -11984,40 +12198,36 @@
       13214
     ], 
     [
-      13244, 
-      13252
+      13235, 
+      13243
     ], 
     [
-      13311, 
-      13317
+      13302, 
+      13308
     ], 
     [
       13391, 
       13393
     ], 
     [
-      13400, 
-      13402
+      13395, 
+      13408
     ], 
     [
-      13404, 
-      13417
+      13436, 
+      13444
     ], 
     [
       13449, 
       13451
     ], 
     [
-      13458, 
-      13460
-    ], 
-    [
       13464, 
       13466
     ], 
     [
-      13473, 
-      13475
+      13479, 
+      13487
     ], 
     [
       13495, 
@@ -12036,52 +12246,44 @@
       13550
     ], 
     [
-      13552, 
-      13559
+      13568, 
+      13576
     ], 
     [
-      13577, 
-      13585
-    ], 
-    [
-      13603, 
-      13615
+      13594, 
+      13606
     ], 
     [
       13617, 
       13619
     ], 
     [
-      13626, 
-      13628
-    ], 
-    [
-      13630, 
-      13643
+      13621, 
+      13634
     ], 
     [
       13691, 
       13693
     ], 
     [
-      13700, 
-      13702
+      13703, 
+      13711
     ], 
     [
-      13712, 
-      13720
-    ], 
-    [
-      13726, 
-      13734
+      13717, 
+      13725
     ], 
     [
       13756, 
       13761
     ], 
     [
-      13785, 
-      13806
+      13775, 
+      13796
+    ], 
+    [
+      13871, 
+      13877
     ], 
     [
       13882, 
@@ -12096,12 +12298,12 @@
       14007
     ], 
     [
-      14084, 
-      14105
+      14074, 
+      14095
     ], 
     [
-      14107, 
-      14124
+      14097, 
+      14114
     ], 
     [
       14199, 
@@ -12116,8 +12318,8 @@
       14333
     ], 
     [
-      14345, 
-      14370
+      14335, 
+      14360
     ], 
     [
       14413, 
@@ -12132,6 +12334,10 @@
       14518
     ], 
     [
+      14533, 
+      14553
+    ], 
+    [
       14556, 
       14558
     ], 
@@ -12140,12 +12346,8 @@
       14602
     ], 
     [
-      14603, 
-      14612
-    ], 
-    [
-      14652, 
-      14658
+      14642, 
+      14648
     ], 
     [
       14696, 
@@ -12164,24 +12366,20 @@
       15057
     ], 
     [
-      15176, 
-      15189
+      15165, 
+      15178
     ], 
     [
       15212, 
       15217
     ], 
     [
-      15223, 
-      15228
-    ], 
-    [
       15342, 
       15367
     ], 
     [
-      15573, 
-      15581
+      15562, 
+      15570
     ], 
     [
       15622, 
@@ -12212,16 +12410,16 @@
       15837
     ], 
     [
-      15840, 
-      15848
-    ], 
-    [
       15890, 
       15916
     ], 
     [
-      15939, 
-      15943
+      15928, 
+      15932
+    ], 
+    [
+      16252, 
+      16260
     ], 
     [
       16265, 
@@ -12232,40 +12430,32 @@
       16279
     ], 
     [
-      16283, 
-      16290
-    ], 
-    [
       16329, 
       16347
     ], 
     [
-      16402, 
-      16420
+      16391, 
+      16409
     ], 
     [
       16425, 
       16431
     ], 
     [
-      16436, 
-      16442
+      16434, 
+      16448
     ], 
     [
-      16445, 
-      16459
+      16491, 
+      16504
     ], 
     [
-      16502, 
-      16515
+      16525, 
+      16539
     ], 
     [
-      16536, 
-      16550
-    ], 
-    [
-      16593, 
-      16597
+      16582, 
+      16586
     ], 
     [
       16610, 
@@ -12274,10 +12464,6 @@
     [
       16658, 
       16673
-    ], 
-    [
-      16675, 
-      16684
     ], 
     [
       16825, 
@@ -12292,32 +12478,32 @@
       16897
     ], 
     [
-      16923, 
-      16935
+      16911, 
+      16923
     ], 
     [
       16945, 
       16947
     ], 
     [
-      17012, 
-      17021
+      17000, 
+      17009
     ], 
     [
-      17051, 
-      17061
+      17039, 
+      17049
     ], 
     [
       17102, 
       17104
     ], 
     [
-      17118, 
-      17126
+      17106, 
+      17114
     ], 
     [
-      17141, 
-      17153
+      17129, 
+      17141
     ], 
     [
       17185, 
@@ -12336,8 +12522,8 @@
       17332
     ], 
     [
-      17388, 
-      17396
+      17376, 
+      17384
     ], 
     [
       17482, 
@@ -12352,8 +12538,8 @@
       17618
     ], 
     [
-      17787, 
-      17790
+      17775, 
+      17778
     ], 
     [
       17835, 
@@ -12364,20 +12550,12 @@
       18032
     ], 
     [
-      18033, 
-      18044
-    ], 
-    [
-      18057, 
-      18060
+      18045, 
+      18048
     ], 
     [
       18079, 
       18089
-    ], 
-    [
-      18091, 
-      18101
     ], 
     [
       18150, 
@@ -12398,10 +12576,6 @@
     [
       18393, 
       18403
-    ], 
-    [
-      18405, 
-      18415
     ], 
     [
       18424, 
@@ -12428,24 +12602,28 @@
       18681
     ], 
     [
+      18781, 
+      18789
+    ], 
+    [
       18794, 
       18795
     ], 
     [
-      18912, 
-      18938
+      18899, 
+      18925
     ], 
     [
       18978, 
       18997
     ], 
     [
-      19129, 
-      19137
+      19116, 
+      19124
     ], 
     [
-      19190, 
-      19202
+      19177, 
+      19189
     ], 
     [
       19211, 
@@ -12456,32 +12634,32 @@
       19285
     ], 
     [
-      19687, 
-      19696
+      19673, 
+      19682
     ], 
     [
-      19763, 
-      19769
+      19749, 
+      19755
     ], 
     [
-      19775, 
-      19789
+      19761, 
+      19775
     ], 
     [
-      19872, 
-      19888
+      19858, 
+      19874
     ], 
     [
-      19918, 
-      19922
+      19904, 
+      19908
     ], 
     [
-      19928, 
-      19934
+      19914, 
+      19920
     ], 
     [
-      19973, 
-      19978
+      19959, 
+      19964
     ], 
     [
       19987, 
@@ -12496,52 +12674,44 @@
       20013
     ], 
     [
-      20049, 
-      20058
+      20035, 
+      20044
     ], 
     [
-      20268, 
-      20275
+      20254, 
+      20261
     ], 
     [
-      20311, 
-      20319
+      20297, 
+      20305
     ], 
     [
       20366, 
       20372
     ], 
     [
-      20407, 
-      20411
+      20393, 
+      20397
     ], 
     [
-      20417, 
-      20423
+      20403, 
+      20409
     ], 
     [
-      20450, 
-      20456
+      20436, 
+      20442
     ], 
     [
-      20467, 
-      20481
+      20453, 
+      20467
     ], 
     [
       20534, 
       20546
     ], 
     [
-      20548, 
-      20554
-    ], 
-    [
-      20556, 
-      20560
-    ], 
-    [
-      20644, 
-      20656
+      20630, 
+      20642
     ]
   ]
 }

@@ -29,6 +29,7 @@ class MedLink:
         # read text
         fin = open(file_path, 'rb')
         doc_text = fin.read()
+        doc_text = doc_text.replace('\r\n', '\n')
         doc_text = doc_text.decode('utf-8')
         fin.close()
 
