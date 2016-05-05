@@ -1,0 +1,236 @@
+	4649	4653	ELISA	PER
+	7674	7680	Addison	PER
+	13452	13457	Fisher	PER
+	3345	3347	HBV	ORG
+	3497	3499	HBV	ORG
+	4259	4261	FCS	ORG
+	4732	4734	HBV	ORG
+	4813	4815	HBV	ORG
+	5395	5398	VAPP	ORG
+	5617	5620	VAPP	ORG
+	5637	5640	VAPP	ORG
+	5791	5794	VDPV	ORG
+	6872	6902	US Food and Drug Administration	ORG
+	11882	11884	MSM	ORG
+	11890	11891	TW	ORG
+	12141	12142	TW	ORG
+	12312	12313	TW	ORG
+	12406	12407	TW	ORG
+	12688	12690	MSM	ORG
+	12696	12697	TW	ORG
+	13101	13103	NPC	ORG
+	13198	13200	NPC	ORG
+	13524	13526	Cox	ORG
+	13749	13751	DFS	ORG
+	14535	14560	Institutional Review Board	ORG
+	15083	15109	Centers for Disease Control	ORG
+	16675	16677	CPS	ORG
+	18888	18894	Stentor	ORG
+	5300	5304	Biysk	LOC
+	5307	5318	Altai Region	LOC
+	5321	5326	Russia	LOC
+	11707	11710	Peru	LOC
+	12147	12150	Peru	LOC
+	12318	12321	Peru	LOC
+	12725	12728	Peru	LOC
+	16378	16384	Alberta	LOC
+	16511	16517	Alberta	LOC
+	16520	16525	Canada	LOC
+	17028	17034	Alberta	LOC
+	17343	17349	Alberta	LOC
+	17352	17357	Canada	LOC
+	18509	18516	Campinas	LOC
+	18519	18527	São Paulo	LOC
+	18530	18535	Brazil	LOC
+	116	124	formalin	Chemical	MESH:D005557
+	352	360	formalin	Chemical	MESH:D005557
+	378	381	RSV	Chemical	-1
+	568	574	FI-RSV	Chemical	-1
+	628	634	FI-RSV	Chemical	-1
+	949	958	clonidine	Chemical	MESH:D003000
+	1012	1020	nalozone	Chemical	-1
+	1183	1196	bupropion HCl	Chemical	-1
+	1360	1376	alpha-methyldopa	Chemical	MESH:D008750
+	1408	1416	naloxone	Chemical	MESH:D009270
+	1418	1426	Naloxone	Chemical	-1
+	1541	1550	clonidine	Chemical	MESH:D003000
+	1617	1630	[3H]-naloxone	Chemical	-1
+	1643	1651	naloxone	Chemical	MESH:D009270
+	1691	1700	clonidine	Chemical	MESH:D003000
+	1725	1749	[3H]-dihydroergocryptine	Chemical	-1
+	1815	1826	terbutaline	Chemical	MESH:D013726
+	1934	1945	terbutaline	Chemical	MESH:D013726
+	1967	1977	oxprenolol	Chemical	MESH:D010096
+	2147	2157	methyldopa	Chemical	MESH:D008750
+	2197	2206	serotonin	Chemical	MESH:D012701
+	2401	2411	methyldopa	Chemical	MESH:D008750
+	2546	2556	methyldopa	Chemical	MESH:D008750
+	2751	2760	yohimbine	Chemical	MESH:D015016
+	2809	2821	clomipramine	Chemical	MESH:D002997
+	3024	3035	doxorubicin	Chemical	MESH:D004317
+	3219	3226	SM-5887	Chemical	-1
+	3829	3834	HBsAg	Chemical	-1
+	3879	3885	BDCA1+	Chemical	-1
+	3953	3963	BDCA1+ mDC	Chemical	-1
+	3967	3972	HBsAg	Chemical	-1
+	4167	4178	BDCA1(+)mDC	Chemical	-1
+	4666	4677	sCD14-HBsAg	Chemical	-1
+	4768	4779	sCD14-HBsAg	Chemical	-1
+	4866	4876	BDCA1+ mDC	Chemical	-1
+	4902	4907	HBsAg	Chemical	-1
+	4918	4927	BDCA1+ DC	Chemical	-1
+	6178	6188	clodronate	Chemical	MESH:D004002
+	6284	6294	clodronate	Chemical	MESH:D004002
+	6679	6687	Selenium	Chemical	-1
+	6692	6701	Vitamin E	Chemical	-1
+	6785	6801	selenomethionine	Chemical	MESH:D012645
+	6806	6818	α-tocopherol	Chemical	MESH:D024505
+	16780	16786	CPS IV	Chemical	-1
+	17214	17226	Erythromycin	Chemical	-1
+	17272	17283	Clindamycin	Chemical	-1
+	17569	17581	erythromycin	Chemical	MESH:D004917
+	17586	17597	clindamycin	Chemical	MESH:D002981
+
+	42	45	RSV	Disease	MESH:D018357
+	79	88	infection	Disease	MESH:D007239
+	190	217	respiratory syncytial virus	Disease	MESH:D018357
+	219	222	RSV	Disease	MESH:D018357
+	378	381	RSV	Disease	MESH:D018357
+	571	574	RSV	Disease	MESH:D018357
+	631	634	RSV	Disease	MESH:D018357
+	861	873	hypertensive	Disease	MESH:D006973
+	1249	1260	convulsions	Disease	MESH:D012640
+	1328	1339	hypotensive	Disease	MESH:D007022
+	1523	1535	hypertensive	Disease	MESH:D006973
+	1835	1846	hypokalemia	Disease	MESH:D007008
+	1996	2007	hypokalemia	Disease	MESH:D007008
+	2240	2251	hypotensive	Disease	MESH:D007022
+	2420	2431	hypotension	Disease	MESH:D007022
+	2524	2535	hypotensive	Disease	MESH:D007022
+	2786	2805	sexual side effects	Disease	MESH:D020018
+	2869	2881	hypertensive	Disease	MESH:D006973
+	3146	3160	cardiomyopathy	Disease	MESH:D009202
+	3326	3359	Hepatitis B virus (HBV) infection	Disease	MESH:D006509
+	3378	3391	liver disease	Disease	MESH:D008107
+	3435	3450	liver cirrhosis	Disease	MESH:D008103
+	3452	3465	liver failure	Disease	MESH:D017093
+	3470	3482	liver cancer	Disease	MESH:D008113
+	3497	3510	HBV infection	Disease	MESH:D006509
+	4732	4744	HBV-infected	Disease	MESH:D006509
+	4813	4824	HBV disease	Disease	MESH:D006509
+	5159	5168	paralysis	Disease	MESH:D010243
+	5351	5393	vaccine-associated paralytic poliomyelitis	Disease	MESH:D011051
+	5395	5399	VAPP	Disease	MESH:D011051
+	5617	5621	VAPP	Disease	MESH:D011051
+	5637	5641	VAPP	Disease	MESH:D011051
+	5873	5895	vascular leak syndrome	Disease	MESH:D014652
+	5913	5942	hantavirus pulmonary syndrome	Disease	MESH:D018804
+	5944	5947	HPS	Disease	MESH:D018804
+	6007	6010	HPS	Disease	MESH:D018804
+	6088	6091	HPS	Disease	MESH:D018804
+	6121	6124	HPS	Disease	MESH:D018804
+	6655	6658	HPS	Disease	MESH:D018804
+	6823	6838	prostate cancer	Disease	MESH:D011471
+	6954	6969	prostate cancer	Disease	MESH:D011471
+	7025	7040	prostate cancer	Disease	MESH:D011471
+	7128	7143	prostate cancer	Disease	MESH:D011471
+	7180	7195	prostate cancer	Disease	MESH:D011471
+	7233	7248	prostate cancer	Disease	MESH:D011471
+	7276	7282	cancer	Disease	MESH:D009369
+	7338	7353	prostate cancer	Disease	MESH:D011471
+	7441	7453	Inflammation	Disease	MESH:D007249
+	7510	7520	infections	Disease	MESH:D007239
+	7536	7557	adrenal insufficiency	Disease	MESH:D000309
+	7582	7593	adrenalitis	Disease	MESH:D000310
+	7623	7642	autoimmune diseases	Disease	MESH:D001327
+	7674	7691	Addison's disease	Disease	MESH:D000224
+	8008	8019	adrenalitis	Disease	MESH:D000310
+	8023	8043	adrenal tuberculosis	Disease	MESH:D014376
+	8134	8145	tuberculous	Disease	MESH:D014376
+	8190	8206	viral infections	Disease	MESH:D014777
+	8216	8234	Epstein-Barr virus	Disease	MESH:D020031
+	8236	8239	EBV	Disease	MESH:D020031
+	8334	8360	immunodeficiency disorders	Disease	MESH:D007153
+	8371	8381	infections	Disease	MESH:D007239
+	8569	8580	adrenalitis	Disease	MESH:D000310
+	8696	8701	death	Disease	MESH:D003643
+	8708	8713	death	Disease	MESH:D003643
+	8724	8741	Addisonian crisis	Disease	MESH:D013958
+	8744	8781	Chronic obstructive pulmonary disease	Disease	MESH:D029424
+	8783	8787	COPD	Disease	MESH:D029424
+	8873	8877	COPD	Disease	MESH:D029424
+	9198	9202	COPD	Disease	MESH:D029424
+	9514	9518	COPD	Disease	MESH:D029424
+	9574	9578	COPD	Disease	MESH:D029424
+	9745	9749	COPD	Disease	MESH:D029424
+	9963	9967	COPD	Disease	MESH:D029424
+	10143	10147	COPD	Disease	MESH:D029424
+	10452	10462	Depression	Disease	MESH:D003866
+	10760	10770	depression	Disease	MESH:D003866
+	10864	10874	depression	Disease	MESH:D003866
+	11037	11047	depression	Disease	MESH:D003866
+	11183	11197	Depressed mood	Disease	MESH:D003866
+	11205	11223	decreased interest	Disease	MESH:D007022
+	11227	11236	anhedonia	Disease	MESH:D059445
+	11268	11276	insomnia	Disease	MESH:D007319
+	11280	11291	hypersomnia	Disease	MESH:D006970
+	11334	11345	energy loss	Disease	MESH:D034381
+	11606	11616	depression	Disease	MESH:D003866
+	11691	11703	HIV epidemic	Disease	MESH:D015658
+	11917	11927	infections	Disease	MESH:D007239
+	11966	11969	HIV	Disease	MESH:D015658
+	12120	12132	HIV-infected	Disease	MESH:D015658
+	12357	12369	HIV-infected	Disease	MESH:D015658
+	12385	12397	HIV-infected	Disease	MESH:D015658
+	12584	12587	HIV	Disease	MESH:D015658
+	12642	12645	HIV	Disease	MESH:D015658
+	12657	12660	HIV	Disease	MESH:D015658
+	12732	12744	HIV epidemic	Disease	MESH:D015658
+	12810	12813	HIV	Disease	MESH:D015658
+	12884	12887	HIV	Disease	MESH:D015658
+	12949	12955	tumour	Disease	MESH:D009369
+	13075	13099	nasopharyngeal carcinoma	Disease	MESH:C538339
+	13101	13104	NPC	Disease	MESH:C538339
+	13198	13201	NPC	Disease	MESH:C538339
+	13392	13398	tumour	Disease	MESH:D009369
+	13606	13612	tumour	Disease	MESH:D009369
+	13694	13708	stable disease	Disease	MESH:D060050
+	13710	13712	SD	Disease	MESH:D060050
+	13786	13796	metastasis	Disease	MESH:D009362
+	13889	13891	SD	Disease	MESH:D060050
+	13954	13956	SD	Disease	MESH:D060050
+	13977	13979	SD	Disease	MESH:D060050
+	14245	14251	tumour	Disease	MESH:D009369
+	14405	14411	seroma	Disease	MESH:D049291
+	14815	14850	drain duration, wound complications	Disease	MESH:D003925
+	14912	14931	Wound complications	Disease	MESH:D003925
+	14948	14970	superficial cellulitis	Disease	MESH:D002481
+	14972	14978	seroma	Disease	MESH:D049291
+	14980	14988	hematoma	Disease	MESH:D006406
+	14990	15011	superficial infection	Disease	MESH:D007239
+	15017	15031	deep infection	Disease	MESH:D007239
+	15458	15464	seroma	Disease	MESH:D049291
+	15465	15473	hematoma	Disease	MESH:D006406
+	15522	15541	Wound complications	Disease	MESH:D003925
+	15618	15625	obesity	Disease	MESH:D009765
+	15803	15822	Wound complications	Disease	MESH:D003925
+	15851	15867	Wound infections	Disease	MESH:D014946
+	16018	16038	Group B streptococci	Disease	MESH:D003057
+	16040	16043	GBS	Disease	MESH:D003057
+	16067	16091	disease in both neonates	Disease	MESH:D004194
+	16138	16141	GBS	Disease	MESH:D003057
+	16295	16298	GBS	Disease	MESH:D003057
+	16410	16413	GBS	Disease	MESH:D003057
+	16809	16812	GBS	Disease	MESH:D003057
+	17390	17401	GBS disease	Disease	MESH:D003057
+	17617	17637	rheumatoid arthritis	Disease	MESH:D001172
+	17639	17641	RA	Disease	MESH:D001172
+	17729	17731	RA	Disease	MESH:D001172
+	17813	17815	RA	Disease	MESH:D001172
+	17849	17869	familial aggregation	Disease	MESH:C566800
+	17873	17875	RA	Disease	MESH:D001172
+	17987	17989	RA	Disease	MESH:D001172
+	18171	18191	familial aggregation	Disease	MESH:C566800
+	18404	18406	RA	Disease	MESH:D001172
+	19056	19069	Giardia cysts	Disease	MESH:D003560
+

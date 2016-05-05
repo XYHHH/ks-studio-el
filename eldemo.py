@@ -71,8 +71,10 @@ def main():
     med_link = init_model()
     # input_file = 'input/00000001.txt'
     # output_file = 'output/result.json'
-    input_file = 'input/Disease.txt'
-    output_file = 'output/Disease-result.json'
+    # input_file = 'input/Disease.txt'
+    # output_file = 'output/Disease-result.json'
+    input_file = 'input/newdisease.txt'
+    output_file = 'output/newdisease-result.json'
 
     mdel_result = med_link.mdel(input_file)
     fout = open(output_file, 'wb')
