@@ -1,6 +1,7 @@
 from itertools import izip
 import json
 import os
+import re
 
 from mention import Mention
 import mentiondetection
@@ -112,8 +113,9 @@ class MedLink:
 
         result_links = list()
         for link in links:
-            if not link.startswith('#'):
-                result_links.append(link)
+            if '#' in link or ':' in link or '[[' in link:
+                continue
+            result_links.append(link)
 
         # rec_dict['wiki-title'] = wiki_info[0]
         # rec_dict['wiki-links'] = wiki_info[1]
@@ -126,6 +128,8 @@ class MedLink:
                 rec_dict['wiki-text'] = extra_wiki_desc
         else:
             # rec_dict['wiki-text'] = wiki_info[2]
+            description = description.replace(' ( )', '')
+            description = re.sub('\[\[(.*?)\]\]', '\g<1>', description)
             rec_dict['wiki-text'] = description
 
     def __add_wiki_mention_info(self, wiki_idx_dict, entity_info_dict):

@@ -523,7 +523,6 @@
         "diphtheria toxin", 
         "antibody", 
         "diphtheria antitoxin", 
-        ":wikt:inhibit", 
         "antigen", 
         "Cell (biology)"
       ]
@@ -539,9 +538,7 @@
         "prolina", 
         "proline", 
         "C5H9NO2", 
-        "OC(=O)C1CCCN1", 
-        "InChI=1S/C5H9NO2/c7-5(8)4-2-1-3-6-4/h4,6H,1-3H2,(H,7,8)", 
-        "ONIBWKKTOPOVIA-UHFFFAOYSA-N"
+        "OC(=O)C1CCCN1"
       ], 
       "chebi-isa": [
         33704, 
@@ -611,9 +608,7 @@
         "(2S)-pyrrolidinium-2-carboxylate", 
         "L-proline", 
         "C5H9NO2", 
-        "[O-]C(=O)[C@@H]1CCC[NH2+]1", 
-        "InChI=1S/C5H9NO2/c7-5(8)4-2-1-3-6-4/h4,6H,1-3H2,(H,7,8)/t4-/m0/s1", 
-        "ONIBWKKTOPOVIA-BYPYZUCNSA-N"
+        "[O-]C(=O)[C@@H]1CCC[NH2+]1"
       ], 
       "chebi-id": 60039, 
       "chebi-isa": [
@@ -715,21 +710,19 @@
         "(S)-1-Pyrroline-5-carboxylate", 
         "L-1-Pyrroline-5-carboxylate", 
         "C5H7NO2", 
-        "OC(=O)[C@@H]1CCC=N1", 
-        "InChI=1S/C5H7NO2/c7-5(8)4-2-1-3-6-4/h3-4H,1-2H2,(H,7,8)/t4-/m0/s1", 
-        "DWAKNKKXGALPNW-BYPYZUCNSA-N"
+        "OC(=O)[C@@H]1CCC=N1"
       ], 
       "chebi-isa": [
         1372
       ], 
       "chebi-description": "A 1-pyrroline-5-carboxylic acid in which the chiral centre has S configuration.", 
-      "wiki-text": "1-Pyrroline-5-carboxylic acid, also known as 1-pyrroline-5-carboxylate, delta-1-pyrroline-5-carboxylic acid, and P5C, is an stereoisomer (\"S\")-1-pyrroline-5-carboxylate is a biosynthetic [[metabolite]] that is synthesized from [[proline]] by the [[enzyme]] [[pyrroline-5-carboxylate reductase]] and converted into the [[amino acid]] [[glutamate]] by the enzyme [[1-pyrroline-5-carboxylate dehydrogenase]].", 
+      "wiki-text": "1-Pyrroline-5-carboxylic acid, also known as 1-pyrroline-5-carboxylate, delta-1-pyrroline-5-carboxylic acid, and P5C, is an stereoisomer (\"S\")-1-pyrroline-5-carboxylate is a biosynthetic metabolite that is synthesized from proline by the enzyme pyrroline-5-carboxylate reductase and converted into the amino acid glutamate by the enzyme 1-pyrroline-5-carboxylate dehydrogenase.", 
       "chebi-name": "(S)-1-pyrroline-5-carboxylic acid", 
       "wiki-title": "1-Pyrroline-5-carboxylic acid", 
       "chebi-id": 371, 
       "wiki-links": [
         "biosynthesis", 
-        "imino acid]]. The [[chirality (chemistry)"
+        "imino acid"
       ]
     }, 
     "11": {
@@ -1244,7 +1237,7 @@
         "off-label use"
       ], 
       "wiki-title": "Bupropion", 
-      "wiki-text": "Bupropion ( ) (BAN) or bupropion hydrochloride (USAN, BANM), also known as amfebutamone (INN), is a drug of the aminoketone family primarily used as an antidepressant and smoking cessation aid. Marketed as Wellbutrin and other trade names, it is one of the most frequently prescribed antidepressants in the United States, although in many English-speaking countries, including the United Kingdom, Australia and New Zealand, this is an off-label use. It is also widely used, in a formulation marketed as Zyban, to aid people who are trying to quit smoking. It is taken in the form of tablets, and in the United States and most other countries it is available only with a prescription."
+      "wiki-text": "Bupropion (BAN) or bupropion hydrochloride (USAN, BANM), also known as amfebutamone (INN), is a drug of the aminoketone family primarily used as an antidepressant and smoking cessation aid. Marketed as Wellbutrin and other trade names, it is one of the most frequently prescribed antidepressants in the United States, although in many English-speaking countries, including the United Kingdom, Australia and New Zealand, this is an off-label use. It is also widely used, in a formulation marketed as Zyban, to aid people who are trying to quit smoking. It is taken in the form of tablets, and in the United States and most other countries it is available only with a prescription."
     }, 
     "18": {
       "mesh-name": "Seizures", 
@@ -1460,7 +1453,6 @@
       "wiki-links": [
         "systole (medicine)", 
         "arteries", 
-        "Diastolic#Inside the arteries", 
         "Blood pressure", 
         "systemic circulation", 
         "blood pressure", 
@@ -2142,8 +2134,7 @@
         "micropipette", 
         "microscopic", 
         "stereo microscope", 
-        "macroscopic", 
-        "Optical microscope#Compound microscope"
+        "macroscopic"
       ]
     }, 
     "29": {
@@ -2299,7 +2290,7 @@
     }, 
     "31": {
       "mesh-name": "Spinal Cord", 
-      "wid": 2503722, 
+      "wid": 21294842, 
       "mesh-tn": [
         "A08.186.854"
       ], 
@@ -2347,7 +2338,7 @@
         "Thoracic Cords"
       ], 
       "mesh-id": "D013116", 
-      "wiki-text": "The tentorium cerebelli or cerebellar tentorium (Latin: \"tent of the cerebellum\") is an extension of the dura mater that separates the cerebellum from the inferior portion of the occipital lobes.", 
+      "wiki-text": "The spinal cord is a long, thin, tubular bundle of nervous tissue and support cells that extends from the medulla oblongata in the brainstem to the lumbar region of the vertebral column. The brain and spinal cord together make up the central nervous system (CNS). The spinal cord begins at the occipital bone and extends down to the space between the first and second lumbar vertebrae; it does not extend the entire length of the vertebral column. It is around in men and around long in women. Also, the spinal cord has a varying width, ranging from thick in the cervical and lumbar regions to thick in the thoracic area. The enclosing bony vertebral column protects the relatively shorter spinal cord. The spinal cord functions primarily in the transmission of neural signals between the brain and the rest of the body but also contains neural circuits that can independently control numerous reflexes and central pattern generators.", 
       "mesh-description": "A cylindrical column of tissue that lies within the vertebral canal. It is composed of WHITE MATTER and GRAY MATTER.", 
       "mesh-parents": {
         "A08.186.854": [
@@ -2363,12 +2354,22 @@
           ]
         ]
       }, 
-      "wiki-title": "Tentorium cerebelli", 
+      "wiki-title": "Spinal cord", 
       "wiki-links": [
-        "cerebellum", 
-        "occipital lobe", 
-        "Latin", 
-        "dura mater"
+        "glia", 
+        "medulla oblongata", 
+        "vertebral column", 
+        "lumbar vertebrae", 
+        "brainstem", 
+        "lumbar", 
+        "brain", 
+        "spine (anatomy)", 
+        "central pattern generator", 
+        "occipital bone", 
+        "central nervous system", 
+        "nervous tissue", 
+        "neural circuit", 
+        "reflex"
       ]
     }, 
     "32": {
@@ -2457,7 +2458,6 @@
         "medulla oblongata", 
         "pons", 
         "brain", 
-        "vertebrate#Anatomy and morphology", 
         "spinal cord", 
         "midbrain", 
         "human anatomy"
@@ -3016,7 +3016,6 @@
         "pharmaceutical", 
         "Australian Approved Name", 
         "United States Adopted Name", 
-        "chemotherapy regimens#List of chemotherapy regimen acronyms", 
         "cancer", 
         "British Approved Name", 
         "International Nonproprietary Name", 
@@ -3029,7 +3028,6 @@
         "cardiotoxicity", 
         "lymphoma", 
         "combination chemotherapy", 
-        "Chemotherapy#Cytotoxic antibiotics", 
         "chemotherapy", 
         "leukaemia", 
         "carcinoma"
@@ -3896,7 +3894,6 @@
         "V(D)J recombination", 
         "immunology", 
         "side-chain theory", 
-        "Antibody#History", 
         "Paul Ehrlich", 
         "antibody", 
         "complementarity determining region", 
@@ -5276,11 +5273,9 @@
       "wiki-links": [
         "Methyl group", 
         "phenol", 
-        "wiktionary:\u03c4\u03cc\u03ba\u03bf\u03c2", 
         "organic compounds", 
         "vitamin", 
         ",", 
-        "wiktionary:\u03c6\u03ad\u03c1\u03b5\u03b9\u03bd", 
         "vitamin E", 
         "alcohol"
       ], 
@@ -5894,7 +5889,6 @@
       }, 
       "wiki-title": "Inflammation", 
       "wiki-links": [
-        "wikt:en:inflammatio#Latin", 
         "Blood vessel", 
         "Latin", 
         "pathogen"
@@ -8126,7 +8120,6 @@
         "oral tradition", 
         "Aymara people", 
         "Peru", 
-        "Prehispanic#South America", 
         "Viceroyalty of Peru", 
         "Chanka", 
         "Quechua people"
@@ -8579,7 +8572,6 @@
       "wiki-title": "Induction chemotherapy", 
       "wiki-links": [
         "chemotherapy", 
-        "Chemotherapy#Treatment strategies", 
         "cancer"
       ]
     }, 
@@ -10149,7 +10141,6 @@
         "ordered logistic regression", 
         "Binary variable", 
         "logistic function", 
-        "Level of measurement#Ordinal type", 
         "Qualitative response models", 
         "dependent and independent variables"
       ]
@@ -11358,7 +11349,6 @@
         "abscess", 
         "biological membrane", 
         "cell division", 
-        "SAC#Anatomical enclosures", 
         "Biological tissue", 
         "surgery", 
         "atmosphere of Earth", 
@@ -11592,7 +11582,6 @@
       "wiki-links": [
         "ciliate", 
         "spirotrich", 
-        "Isogamy#Biological types", 
         "cell division"
       ]
     }, 
@@ -11656,7 +11645,6 @@
         "Hera", 
         "Iliad", 
         "Trojan War", 
-        ":wiktionary:stentorian", 
         "Hermes"
       ], 
       "wiki-title": "Stentor", 

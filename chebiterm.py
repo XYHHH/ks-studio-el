@@ -41,7 +41,7 @@ class ChebiTerm:
                 elif line.startswith(def_start_str):
                     m = re.search('"(.*?)"', line)
                     chebiterm.description = m.group(1)
-                elif line.startswith(synonym_start_str):
+                elif line.startswith(synonym_start_str) and 'InChI' not in line:
                     m = re.search('"(.*?)"', line)
                     chebiterm.synonyms.append(m.group(1))
                 elif line.startswith(isa_start_str):
