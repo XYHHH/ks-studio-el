@@ -135,6 +135,7 @@ class MedLink:
 
             extra_parents = self.wiki_extra_parents.get(wid, None)
             if extra_parents:
+                print extra_parents
                 cur_rec_dict['extra-parent'] = self.__gen_tree_path_lists(extra_parents)
 
     def __add_mesh_mention_info(self, mesh_idx_dict, entity_info_dict):
@@ -158,6 +159,7 @@ class MedLink:
 
             extra_parents = self.mesh_extra_parents.get(mesh_id, None)
             if extra_parents:
+                print extra_parents
                 cur_rec_dict['extra-parent'] = self.__gen_tree_path_lists(extra_parents)
 
             if cur_record.wid > -1:
