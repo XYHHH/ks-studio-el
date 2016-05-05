@@ -57,7 +57,7 @@ class MedLink:
         for mention in merged_mention_list:
             if mention.mesh_id or mention.chebi_id > -1:
                 for mention1 in merged_mention_list:
-                    if mention.name == mention1.name:
+                    if mention.name.lower() == mention1.name.lower():
                         mention1.mesh_id = mention.mesh_id
                         mention1.chebi_id = mention.chebi_id
 
@@ -110,10 +110,15 @@ class MedLink:
         if not title:
             return
 
+        result_links = list()
+        for link in links:
+            if not link.startswith('#'):
+                result_links.append(link)
+
         # rec_dict['wiki-title'] = wiki_info[0]
         # rec_dict['wiki-links'] = wiki_info[1]
         rec_dict['wiki-title'] = title
-        rec_dict['wiki-links'] = links
+        rec_dict['wiki-links'] = result_links
 
         if mesh_id:
             extra_wiki_desc = self.extra_wiki_descriptions.get(mesh_id, None)

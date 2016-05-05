@@ -73,8 +73,10 @@ def main():
     # output_file = 'output/result.json'
     # input_file = 'input/Disease.txt'
     # output_file = 'output/Disease-result.json'
-    input_file = 'input/newdisease.txt'
-    output_file = 'output/newdisease-result.json'
+    # input_file = 'input/newdisease.txt'
+    # output_file = 'output/newdisease-result.json'
+    input_file = 'input/newdisease-dhl.txt'
+    output_file = 'output/newdisease-dhl-result.json'
 
     mdel_result = med_link.mdel(input_file)
     fout = open(output_file, 'wb')
