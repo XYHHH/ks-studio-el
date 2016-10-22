@@ -9,6 +9,13 @@ import mentiondetection
 mesh_types_dict = {'A': 'Anatomy', 'B': 'Organism', 'C': 'Disease', 'D': 'Chemical', 'F': 'Psychology'}
 
 
+def file_name_from_path(filepath):
+    pos = filepath.rfind('/')
+    if pos == -1:
+        pos = filepath.rfind('\\')
+    return filepath[pos + 1:]
+
+
 class MedLink:
     def __init__(self, extra_parents_file, mesh_match, mesh_records, mesh_tree, chebi_terms, wiki_info,
                  extra_wiki_descriptions, wiki_link):
@@ -23,8 +30,7 @@ class MedLink:
 
     def mdel(self, file_path):
         # mention detection
-        pos = file_path.rfind('/')
-        file_name = file_path[pos + 1:]
+        file_name = file_name_from_path(file_path)
         ner_result_file = os.path.join('output', file_name + '.ner')
 
         # read text
@@ -35,11 +41,38 @@ class MedLink:
         fin.close()
 
         merged_result_list = mentiondetection.clean_ner_result(ner_result_file)
-        return self.link_text(doc_text, merged_result_list)
+        return self.link_mentions(doc_text, merged_result_list)
 
-    def link_text(self, text, mention_detection_result):
+    def mdel_tojson(self, file_path):
+        merged_mention_list = self.mdel(file_path)
+        return self.mentions_tojson(merged_mention_list)
+
+    def mentions_tojson(self, merged_mention_list):
+        mesh_idx_dict, wiki_idx_dict, chebi_idx_dict, idx_list = MedLink.__asign_indices(merged_mention_list)
+        # print wiki_idx_dict
+
         result_dict = dict()
 
+        result_dict['entities'] = entities_dict = dict()
+        self.__add_wiki_mention_info(wiki_idx_dict, entities_dict)
+        self.__add_mesh_mention_info(mesh_idx_dict, entities_dict)
+        self.__add_chebi_mention_info(chebi_idx_dict, entities_dict)
+
+        result_span_list = list()
+        mention_type_list = list()
+        for mention in merged_mention_list:
+            result_span_list.append(mention.span)
+            mention_type_list.append(mention.mtype)
+
+        self.__fix_types(mesh_idx_dict, idx_list, mention_type_list)
+
+        result_dict['spans'] = result_span_list
+        result_dict['idx'] = idx_list
+        result_dict['type'] = mention_type_list
+
+        return json.dumps(result_dict, indent=2)
+
+    def link_mentions(self, text, mention_detection_result):
         mesh_mention_list = self.__find_mesh_mentions(text)
         merged_mention_list = list()
         Mention.merge_mention_list(mention_detection_result, merged_mention_list)
@@ -62,27 +95,7 @@ class MedLink:
                         mention1.mesh_id = mention.mesh_id
                         mention1.chebi_id = mention.chebi_id
 
-        mesh_idx_dict, wiki_idx_dict, chebi_idx_dict, idx_list = MedLink.__asign_indices(merged_mention_list)
-        # print wiki_idx_dict
-
-        result_dict['entities'] = entities_dict = dict()
-        self.__add_wiki_mention_info(wiki_idx_dict, entities_dict)
-        self.__add_mesh_mention_info(mesh_idx_dict, entities_dict)
-        self.__add_chebi_mention_info(chebi_idx_dict, entities_dict)
-
-        result_span_list = list()
-        mention_type_list = list()
-        for mention in merged_mention_list:
-            result_span_list.append(mention.span)
-            mention_type_list.append(mention.mtype)
-
-        self.__fix_types(mesh_idx_dict, idx_list, mention_type_list)
-
-        result_dict['spans'] = result_span_list
-        result_dict['idx'] = idx_list
-        result_dict['type'] = mention_type_list
-
-        return json.dumps(result_dict, indent=2)
+        return merged_mention_list
 
     def __fix_types(self, mesh_idx_dict, idx_list, type_list):
         idx_type_dict = dict()

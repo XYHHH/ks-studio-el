@@ -13,42 +13,26 @@ from preprocess.tfidf import TfIdf
 
 
 def init_model():
-    # extra_wiki_desc_file = 'e:/el/tmpres/demo/merge/wiki_extra_sentences.txt'
-    # extra_parents_file = 'e:/el/tmpres/demo/extra_parents.txt'
-    #
-    # name_wid_file = 'e:/el/tmpres/demo/dict/single_candidates_wid_dict.txt'
-    # record_file = 'd:/data/lab_demo/med_edl_data/records_info_with_wiki.txt'
-    # dict_file = 'd:/data/lab_demo/med_edl_data/med_dict_ascii_with_ids_edited.txt'
-    # tree_number_file = 'd:/data/lab_demo/med_edl_data/id_tn.txt'
+    res_dir = '/media/dhl/Data/data/edl/demo'
+    # res_dir = 'e:/el/tmpres/demo/del-data/'
 
-    # res_dir = '/media/dhl/Data/el/tmpres/demo/del-data/'
+    # extra_wiki_desc_file = res_dir + 'wiki_extra_sentences.txt'
+    extra_parents_file = os.path.join(res_dir, 'del-data/extra_parents.txt')
+    mesh_record_file = os.path.join(res_dir, 'del-data/records_info_with_wiki.txt')
+    mesh_dict_file = os.path.join(res_dir, 'del-data/med_dict_ascii_with_ids_edited.txt')
+    exclude_words_file = os.path.join(res_dir, 'del-data/exclude_words.txt')
+    tree_number_file = os.path.join(res_dir, 'del-data/id_tn.txt')
+    obo_file = os.path.join(res_dir, 'del-data/chebi.obo')
 
-    # input_file = '/media/dhl/Data/el/tmpres/NER/NER/00000001.txt.bak'
-    # output_file = '/media/dhl/Data/el/tmpres/demo/result/result-linux.json'
+    word_idf_file = os.path.join(res_dir, 'word_idf.txt')
 
-    res_dir = 'e:/el/tmpres/demo/del-data/'
-    extra_wiki_desc_file = res_dir + 'wiki_extra_sentences.txt'
-    extra_parents_file = res_dir + 'extra_parents.txt'
-    mesh_record_file = res_dir + 'records_info_with_wiki.txt'
-    mesh_dict_file = res_dir + 'med_dict_ascii_with_ids_edited.txt'
-    exclude_words_file = res_dir + 'exclude_words.txt'
-    tree_number_file = res_dir + 'id_tn.txt'
-    obo_file = res_dir + 'chebi.obo'
+    wiki_candidates_file = os.path.join(res_dir, 'wiki/name_candidates.pkl')
 
-    word_idf_file = 'e:/el/tmpres/demo/word_idf.txt'
+    wiki_info_file = os.path.join(res_dir, 'wiki/wiki-info.pkl')
+    links_file = os.path.join(res_dir, 'wiki/links.txt')
+    description_file = os.path.join(res_dir, 'wiki/text.txt')
 
-    # wiki_candidates_file = 'e:/el/tmpres/wiki/dict/name_candidates.txt'
-    wiki_candidates_file = 'e:/el/tmpres/wiki/dict/name_candidates.pkl'
-
-    # wiki_info_file = r'E:\el\tmpres\demo\wiki-med\new\wiki-info.txt'
-    # links_file = r'E:\el\tmpres\demo\wiki-med\new\links.txt'
-    # description_file = r'E:\el\tmpres\demo\wiki-med\new\text.txt'
-
-    wiki_info_file = 'e:/el/tmpres/demo/wiki-all/wiki-info.pkl'
-    links_file = 'e:/el/tmpres/demo/wiki-all/links.txt'
-    description_file = 'e:/el/tmpres/demo/wiki-all/text.txt'
-
-    mesh_extra_description_file = 'e:/el/tmpres/demo/extra_description_for_mesh.txt'
+    mesh_extra_description_file = os.path.join(res_dir, 'extra_description_for_mesh.txt')
 
     chebi_terms = ChebiTerm.load_obo_file(obo_file)
 
@@ -78,7 +62,7 @@ def main():
     input_file = 'input/rsv1407.txt'
     output_file = 'output/rsv1407-result.json'
 
-    mdel_result = med_link.mdel(input_file)
+    mdel_result = med_link.mdel_tojson(input_file)
     fout = open(output_file, 'wb')
     fout.write(mdel_result)
     fout.close()
