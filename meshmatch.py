@@ -182,7 +182,7 @@ class MeshMatch:
 
 def main():
     start_time = time()
-    dict_file = 'd:/data/lab_demo/med_edl_data/med_dict_ascii_with_ids_edited.txt'
+    dict_file = '/media/dhl/Data/data/edl/demo/del-data/med_dict_ascii_with_ids_edited.txt'
     mesh_match = MeshMatch(dict_file, None)
     text = 'Human Immunodeficiency Virus (HIV) Antigen-Antibody'
     span_list, id_list = mesh_match.find_all_terms(text)

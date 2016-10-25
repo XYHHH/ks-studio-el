@@ -4,6 +4,7 @@ class Mention:
         self.mtype = mtype
         self.mesh_id = mesh_id
         self.wid = wid
+        self.candidates = list()
         self.chebi_id = chebi_id
         self.name = ''
 

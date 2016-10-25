@@ -38,7 +38,7 @@ class WikiLink:
                     exp_name = WikiLink.__try_expand(text, mention, mentions[i - 1])
                     if exp_name:
                         name_expantion_dict[cur_name.lower()] = exp_name.lower()
-                name_results[cur_name.lower()] = -1
+                name_results[cur_name.lower()] = (-1, [])
         # print name_expantion_dict
 
         context_tfidf = self.tfidf.get_tfidf_from_text(text)
@@ -54,36 +54,39 @@ class WikiLink:
                 exp_name = name_expantion_dict.get(cur_name, None)
                 if exp_name:
                     cur_name = exp_name
-                mention.wid = name_results.get(cur_name, -1)
+
+                mention.wid, mention.candidates = name_results.get(cur_name, (-1, []))
                 # print cur_name, mention.wid
 
     def link_with_context(self, sname, context_tfidf):
         if not self.tfidf:
-            return -1
+            return -1, []
 
         pos = bisect_left(self.name_list, sname)
         if self.name_list[pos] != sname:
-            return -1
+            return -1, []
         beg_idx = self.beg_indices[pos]
         if pos == len(self.beg_indices) - 1:
             end_idx = len(self.candidates)
         else:
             end_idx = self.beg_indices[pos + 1]
 
-        result_wid = self.candidates[beg_idx]
+        # result_wid = self.candidates[beg_idx]
 
         if end_idx == beg_idx + 1:
-            wiki_info = self.wiki_info.get_info(result_wid)
+            tmpwid = self.candidates[beg_idx]
+            wiki_info = self.wiki_info.get_info(tmpwid)
             if wiki_info and wiki_info[1]:
                 if 'may refer to' in wiki_info[1] or 'may stand for' in wiki_info[1]:
-                    return -1
-            return result_wid
+                    return -1, []
+            return tmpwid, [tmpwid]
 
         sum_cnts = 0.0
         for i in xrange(beg_idx, end_idx):
             sum_cnts += self.cnts[i]
 
-        max_score = -1
+        cur_candidates = list()
+        # max_score = -1
         for i in xrange(beg_idx, end_idx):
             cur_wid = self.candidates[i]
             wiki_info = self.wiki_info.get_info(cur_wid)
@@ -98,11 +101,16 @@ class WikiLink:
                 # print cur_wid, wiki_info[0], sim
                 # score = sim + 0.0 * self.cnts[i] / sum_cnts
                 score = sim
-                if score > max_score:
-                    max_score = score
-                    result_wid = cur_wid
-
-        return result_wid
+                cur_candidates.append((cur_wid, score))
+                # if score > max_score:
+                #     max_score = score
+                #     result_wid = cur_wid
+        cur_candidates.sort(key=lambda x: -x[1])
+        cur_candidates = [x[0] for x in cur_candidates]
+        # if cur_candidates[0][0] != result_wid:
+        #     print 'not equal!'
+        #     print cur_candidates
+        return cur_candidates[0], cur_candidates
 
     @staticmethod
     def __try_expand(text, mention, prev_mention):
