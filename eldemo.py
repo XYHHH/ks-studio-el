@@ -26,7 +26,7 @@ def init_model():
     # input_file = '/media/dhl/Data/el/tmpres/NER/NER/00000001.txt.bak'
     # output_file = '/media/dhl/Data/el/tmpres/demo/result/result-linux.json'
 
-    res_dir = 'e:/el/tmpres/demo/del-data/'
+    res_dir = 'e:/data/el/tmpres/demo/del-data/'
     extra_wiki_desc_file = res_dir + 'wiki_extra_sentences.txt'
     extra_parents_file = res_dir + 'extra_parents.txt'
     mesh_record_file = res_dir + 'records_info_with_wiki.txt'
@@ -35,20 +35,20 @@ def init_model():
     tree_number_file = res_dir + 'id_tn.txt'
     obo_file = res_dir + 'chebi.obo'
 
-    word_idf_file = 'e:/el/tmpres/demo/word_idf.txt'
+    word_idf_file = 'e:/data/el/tmpres/demo/word_idf.txt'
 
     # wiki_candidates_file = 'e:/el/tmpres/wiki/dict/name_candidates.txt'
-    wiki_candidates_file = 'e:/el/tmpres/wiki/dict/name_candidates.pkl'
+    wiki_candidates_file = 'e:/data/el/tmpres/wiki/dict/name_candidates.pkl'
 
     # wiki_info_file = r'E:\el\tmpres\demo\wiki-med\new\wiki-info.txt'
     # links_file = r'E:\el\tmpres\demo\wiki-med\new\links.txt'
     # description_file = r'E:\el\tmpres\demo\wiki-med\new\text.txt'
 
-    wiki_info_file = 'e:/el/tmpres/demo/wiki-all/wiki-info.pkl'
-    links_file = 'e:/el/tmpres/demo/wiki-all/links.txt'
-    description_file = 'e:/el/tmpres/demo/wiki-all/text.txt'
+    wiki_info_file = 'e:/data/el/tmpres/demo/wiki-all/wiki-info.pkl'
+    links_file = 'e:/data/el/tmpres/demo/wiki-all/links.txt'
+    description_file = 'e:/data/el/tmpres/demo/wiki-all/text.txt'
 
-    mesh_extra_description_file = 'e:/el/tmpres/demo/extra_description_for_mesh.txt'
+    mesh_extra_description_file = 'e:/data/el/tmpres/demo/extra_description_for_mesh.txt'
 
     chebi_terms = ChebiTerm.load_obo_file(obo_file)
 

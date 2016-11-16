@@ -35,11 +35,9 @@ class MedLink:
         fin.close()
 
         merged_result_list = mentiondetection.clean_ner_result(ner_result_file)
-        return self.link_text(doc_text, merged_result_list)
+        return self.link_mentions_info(doc_text, merged_result_list)
 
-    def link_text(self, text, mention_detection_result):
-        result_dict = dict()
-
+    def link_mentions(self, mention_detection_result, text):
         mesh_mention_list = self.__find_mesh_mentions(text)
         merged_mention_list = list()
         Mention.merge_mention_list(mention_detection_result, merged_mention_list)
@@ -62,9 +60,36 @@ class MedLink:
                         mention1.mesh_id = mention.mesh_id
                         mention1.chebi_id = mention.chebi_id
 
-        mesh_idx_dict, wiki_idx_dict, chebi_idx_dict, idx_list = MedLink.__asign_indices(merged_mention_list)
+        return merged_mention_list
+
+    def link_mentions_info(self, text, mention_detection_result):
+        # mesh_mention_list = self.__find_mesh_mentions(text)
+        # merged_mention_list = list()
+        # Mention.merge_mention_list(mention_detection_result, merged_mention_list)
+        # Mention.merge_mention_list(mesh_mention_list, merged_mention_list)
+        #
+        # merged_mention_list.sort(key=lambda x: x.span[0])
+        #
+        # for mention in merged_mention_list:
+        #     mention.name = text[mention.span[0]:mention.span[1] + 1]
+        #
+        # if self.wiki_link.tfidf:
+        #     self.wiki_link.link_all(text, merged_mention_list)
+        # else:
+        #     self.__link_mention_to_wiki(text, merged_mention_list)
+        #
+        # for mention in merged_mention_list:
+        #     if mention.mesh_id or mention.chebi_id > -1:
+        #         for mention1 in merged_mention_list:
+        #             if mention.name.lower() == mention1.name.lower():
+        #                 mention1.mesh_id = mention.mesh_id
+        #                 mention1.chebi_id = mention.chebi_id
+
+        linked_mentions = self.link_mentions(mention_detection_result, text)
+        mesh_idx_dict, wiki_idx_dict, chebi_idx_dict, idx_list = MedLink.__asign_indices(linked_mentions)
         # print wiki_idx_dict
 
+        result_dict = dict()
         result_dict['entities'] = entities_dict = dict()
         self.__add_wiki_mention_info(wiki_idx_dict, entities_dict)
         self.__add_mesh_mention_info(mesh_idx_dict, entities_dict)
@@ -72,7 +97,7 @@ class MedLink:
 
         result_span_list = list()
         mention_type_list = list()
-        for mention in merged_mention_list:
+        for mention in linked_mentions:
             result_span_list.append(mention.span)
             mention_type_list.append(mention.mtype)
 
