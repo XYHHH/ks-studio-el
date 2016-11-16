@@ -219,3 +219,6 @@ pip-log.txt
 .idea/*
 
 *.jar
+
+output/
+input/
