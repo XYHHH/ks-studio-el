@@ -14,30 +14,43 @@ from meshmatch import MeshMatch
 from preprocess.tfidf import TfIdf
 import mentiondetection
 from mention import Mention
+import os
 
 app = Flask(__name__)
 
 
 def init_model():
-    res_dir = 'e:/data/el/tmpres/demo/del-data/'
-    extra_wiki_desc_file = res_dir + 'wiki_extra_sentences.txt'
-    extra_parents_file = res_dir + 'extra_parents.txt'
-    mesh_record_file = res_dir + 'records_info_with_wiki.txt'
-    mesh_dict_file = res_dir + 'med_dict_ascii_with_ids_edited.txt'
-    exclude_words_file = res_dir + 'exclude_words.txt'
-    tree_number_file = res_dir + 'id_tn.txt'
-    obo_file = res_dir + 'chebi.obo'
+    res_dir = 'e:/data/el/tmpres/'
+    del_res_dir = os.path.join(res_dir, 'demo/del-data/')
+    # extra_wiki_desc_file = del_res_dir + 'wiki_extra_sentences.txt'
+    # extra_parents_file = del_res_dir + 'extra_parents.txt'
+    # mesh_record_file = del_res_dir + 'records_info_with_wiki.txt'
+    # mesh_dict_file = del_res_dir + 'med_dict_ascii_with_ids_edited.txt'
+    # exclude_words_file = del_res_dir + 'exclude_words.txt'
+    # tree_number_file = del_res_dir + 'id_tn.txt'
+    # obo_file = del_res_dir + 'chebi.obo'
 
-    word_idf_file = 'e:/data/el/tmpres/demo/word_idf.txt'
+    extra_wiki_desc_file = os.path.join(del_res_dir, 'wiki_extra_sentences.txt')
+    extra_parents_file = os.path.join(del_res_dir, 'extra_parents.txt')
+    mesh_record_file = os.path.join(del_res_dir, 'records_info_with_wiki.txt')
+    mesh_dict_file = os.path.join(del_res_dir, 'med_dict_ascii_with_ids_edited.txt')
+    exclude_words_file = os.path.join(del_res_dir, 'exclude_words.txt')
+    tree_number_file = os.path.join(del_res_dir, 'id_tn.txt')
+    obo_file = os.path.join(del_res_dir, 'chebi.obo')
+
+    word_idf_file = os.path.join(res_dir, 'demo/word_idf.txt')
+    wiki_candidates_file = os.path.join(res_dir, 'wiki/dict/name_candidates.pkl')
+    wiki_info_file = os.path.join(res_dir, 'demo/wiki-all/wiki-info.pkl')
+    links_file = os.path.join(res_dir, 'demo/wiki-all/links.txt')
+    description_file = os.path.join(res_dir, 'demo/wiki-all/text.txt')
+    mesh_extra_description_file = os.path.join(res_dir, 'demo/extra_description_for_mesh.txt')
 
     # wiki_candidates_file = 'e:/el/tmpres/wiki/dict/name_candidates.txt'
-    wiki_candidates_file = 'e:/data/el/tmpres/wiki/dict/name_candidates.pkl'
-
-    wiki_info_file = 'e:/data/el/tmpres/demo/wiki-all/wiki-info.pkl'
-    links_file = 'e:/data/el/tmpres/demo/wiki-all/links.txt'
-    description_file = 'e:/data/el/tmpres/demo/wiki-all/text.txt'
-
-    mesh_extra_description_file = 'e:/data/el/tmpres/demo/extra_description_for_mesh.txt'
+    # wiki_candidates_file = 'e:/data/el/tmpres/wiki/dict/name_candidates.pkl'
+    # wiki_info_file = 'e:/data/el/tmpres/demo/wiki-all/wiki-info.pkl'
+    # links_file = 'e:/data/el/tmpres/demo/wiki-all/links.txt'
+    # description_file = 'e:/data/el/tmpres/demo/wiki-all/text.txt'
+    # mesh_extra_description_file = 'e:/data/el/tmpres/demo/extra_description_for_mesh.txt'
 
     chebi_terms = ChebiTerm.load_obo_file(obo_file)
 
@@ -78,10 +91,11 @@ def mention_extraction_web(text):
         'content-type': "application/json",
         'cache-control': "no-cache"
     }
-
+    print 'calling ', url
     data_json = json.dumps({"text": text})
     response = requests.request("POST", url, headers=headers, data=data_json)
     # print response.text
+    print 'call end'
     return json.loads(response.text)
 
 
@@ -110,31 +124,40 @@ def edl_api():
     doc_text = ''
     if 'text' in request.values:
         doc_text = request.values['text']
+        # print doc_text
+        # print type(doc_text)
     else:
         abort(400)
 
-    mentions_list = list()
-    mentions_dict = mention_extraction_web(doc_text)
-    for result_type, mentions in mentions_dict.items():
-        entity_type = 'MISC'
-        if result_type == 'results_Disease':
-            entity_type = 'Disease'
-        elif result_type == 'results_Chemical':
-            entity_type = 'Chemical'
+    json_result = '[]'
+    try:
+        mentions_list = list()
+        mentions_dict = mention_extraction_web(doc_text)
+        for result_type, mentions in mentions_dict.items():
+            entity_type = 'MISC'
+            if result_type == 'results_Disease':
+                entity_type = 'Disease'
+            elif result_type == 'results_Chemical':
+                entity_type = 'Chemical'
 
-        for dict_mention in mentions:
-            beg_pos = dict_mention['startChar']
-            end_pos = dict_mention['endChar']
-            meshid = None
-            specified_type = dict_mention.get('label', None)
-            if specified_type:
-                entity_type = specified_type
-            # print dict_mention
-            # print beg_pos, end_pos, entity_type, meshid
-            m = Mention(span=(beg_pos, end_pos), mtype=entity_type, mesh_id=meshid)
-            mentions_list.append(m)
-    linked_mentions = med_link.link_mentions(mentions_list, doc_text.decode('utf-8'))
-    return json.dumps(__mentions_to_dict_list(linked_mentions))
+            for dict_mention in mentions:
+                beg_pos = dict_mention['startChar']
+                end_pos = dict_mention['endChar']
+                meshid = None
+                specified_type = dict_mention.get('label', None)
+                if specified_type:
+                    entity_type = specified_type
+                # print dict_mention
+                # print beg_pos, end_pos, entity_type, meshid
+                m = Mention(span=(beg_pos, end_pos), mtype=entity_type, mesh_id=meshid)
+                mentions_list.append(m)
+        # linked_mentions = med_link.link_mentions(mentions_list, doc_text.decode('utf-8'))
+        linked_mentions = med_link.link_mentions(mentions_list, doc_text)
+        json_result = json.dumps(__mentions_to_dict_list(linked_mentions))
+    except:
+        print 'except'
+    print json_result + '\n'
+    return json_result
     # return 'OK'
 
 

@@ -22,9 +22,23 @@ def call_ner():
 
 
 def call_edl():
-    url_get_base = "http://localhost:5000/ks/api/v1/edl"
+    url_get_base = "http://10.214.129.104:5000/ks/api/v1/edl"
     args = {
         'text': 'Barack Obama is an American politician.'
+        # 'text': 'In 2009, Elliot Turner launched AlchemyAPI to process the written word, '
+        #         'with all of its quirks and nuances, and got immediate traction. That first month, '
+        #         'the company\'s eponymous language-analysis API processed 500,000 transactions. Today '
+        #         'it\'s processing three billion transactions a month, or about 1,200 a second. “That\'s '
+        #         'a growth rate of 6,000 times over three years,” touts Turner. “Context is '
+        #         'super-important,” he adds. “\'I\'m dying\' is a lot different than \'I\'m dying to buy'
+        #         ' the new iPhone.\'” “As we move into new markets, we\'re going to be making some new '
+        #         'hires," Turner says. "We knocked down some walls and added 2,000 square feet to our '
+        #         'office.” “We\'re providing the ability to translate human language in the form of '
+        #         'web pages and documents into actionable data,” Turner says. Clients include Walmart, '
+        #         'PR Newswire and numerous publishers and advertising networks. “This allows a news '
+        #         'organization to detect what a person likes to read about,” says Turner of '
+        #         'publishers and advertisers.'
+        # 'text': 'it is good'
     }
     result = urllib.urlopen(url_get_base, urllib.urlencode(args))  # POST method
     content = result.read().strip()
@@ -50,7 +64,7 @@ def __mentions_to_dict_list(mentions):
 def link():
     print 'beg init'
     med_link = init_model()
-    curtext = 'Obama is an American politician.'
+    curtext = '“That\'s a growth rate of 6,000 times over three years,” touts Turner.'
     m = Mention(span=(0, 4), mtype='PER')
     mentions = [m]
     lr = med_link.link_mentions(mentions, curtext)
