@@ -21,6 +21,7 @@ app = Flask(__name__)
 
 def init_model():
     res_dir = 'e:/data/el/tmpres/'
+    # res_dir = '/home/dhl/data/el/tmpres/'
     del_res_dir = os.path.join(res_dir, 'demo/del-data/')
     # extra_wiki_desc_file = del_res_dir + 'wiki_extra_sentences.txt'
     # extra_parents_file = del_res_dir + 'extra_parents.txt'

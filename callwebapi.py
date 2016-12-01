@@ -22,7 +22,8 @@ def call_ner():
 
 
 def call_edl():
-    url_get_base = "http://10.214.129.104:5000/ks/api/v1/edl"
+    # url_get_base = "http://10.214.129.104:5000/ks/api/v1/edl"
+    url_get_base = "http://10.214.155.245:5000/ks/api/v1/edl"
     args = {
         'text': 'Barack Obama is an American politician.'
         # 'text': 'In 2009, Elliot Turner launched AlchemyAPI to process the written word, '
@@ -75,6 +76,8 @@ def main():
     # call_ner()
     call_edl()
     # link()
+    # import nltk
+    # print nltk.data.path
 
     # st = StanfordNERTagger('e:/lib/stanford-nlp/stanford-ner-2015-12-09/classifiers'
     #                        '/english.all.3class.distsim.crf.ser.gz')

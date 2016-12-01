@@ -51,6 +51,7 @@ def init_model():
     mesh_extra_description_file = 'e:/data/el/tmpres/demo/extra_description_for_mesh.txt'
 
     chebi_terms = ChebiTerm.load_obo_file(obo_file)
+    print '%d chebi terms' % len(chebi_terms)
 
     mesh_match = MeshMatch(mesh_dict_file, exclude_words_file)
     mesh_records = MeshRecord.load_mesh_records(mesh_record_file)

@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
 import sys
-import MySQLdb
+# import MySQLdb
+import mentiondetection
 import nltk.data
 from eldemo import init_model
+from wikilink import WikiLink
+from wikiinfo import WikiInfo
+from meshmatch import MeshMatch
+from preprocess.tfidf import TfIdf
+from medlink import MedLink
 
 
 def __get_context_span(mention, sent_spans):
@@ -90,29 +96,39 @@ def __process_file(dbcursor, dbconn, med_link, sent_detector, filepath):
     __mentions_to_db(mentions, doc_text, sent_spans, dbcursor, dbconn, filepath)
 
 
-def test():
-    name = u'戴dhl'
-    age = 17
-    db = MySQLdb.connect('localhost', 'root', 'dhldhl', 'dbtest', charset='utf8')
-    cursor = db.cursor()
-    # cursor.execute("SET NAMES utf8")
-    # db.commit()
-    try:
-        cursor.execute(u"INSERT INTO students(name, age) VALUES (%s, %s)", (name, age))
-        db.commit()
-    except:
-        print 'rolling back'
-        e = sys.exc_info()[0]
-        print e
-        db.rollback()
+def __test():
+    word_idf_file = 'e:/data/el/tmpres/demo/word_idf.txt'
+    wiki_candidates_file = 'e:/data/el/tmpres/wiki/dict/name_candidates.pkl'
+    wiki_info_file = 'e:/data/el/tmpres/demo/wiki-all/wiki-info.pkl'
+    links_file = 'e:/data/el/tmpres/demo/wiki-all/links.txt'
+    description_file = 'e:/data/el/tmpres/demo/wiki-all/text.txt'
 
-    cursor.execute('SELECT * from students')
-    print cursor.fetchall()
-    db.close()
+    input_file = 'input/rsv1407.txt'
+    ner_result_file = 'output/rsv1407.txt.ner'
+    sent_detector = nltk.data.load('tokenizers/punkt/english.pickle')
+
+    fin = open(input_file, 'rb')
+    doc_text = fin.read()
+    doc_text = doc_text.replace('\r\n', '\n')
+    doc_text = doc_text.decode('utf-8')
+    fin.close()
+
+    mentions = mentiondetection.clean_ner_result(ner_result_file)
+
+    # wiki_info = WikiInfo(wiki_info_file, links_file, description_file)
+    # tfidf = TfIdf(word_idf_file)
+    # wiki_link = WikiLink(wiki_candidates_file, wiki_info, tfidf)
+    # med_link = MedLink(wiki_info=wiki_info, wiki_link=wiki_link)
+
+    # mentions = med_link.mdel(input_file)
+
+    # med_link.link_mentions(mentions, doc_text)
+
+    for m in mentions:
+        print '%d\t%d\t%s\t%s\t%d\t%d' % (m.span[0], m.span[1], m.name, m.mesh_id, m.chebi_id, m.wid)
 
 
 def main():
-    # test()
     conn = MySQLdb.connect('localhost', 'root', 'dhldhl', 'ksstudio', charset='utf8')
     cursor = conn.cursor()
     input_file = 'input/rsv1407.txt'
@@ -122,4 +138,5 @@ def main():
     conn.close()
 
 if __name__ == '__main__':
-    main()
+    # main()
+    __test()
