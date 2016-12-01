@@ -3,7 +3,6 @@ import sys
 # import MySQLdb
 import mentiondetection
 import nltk.data
-from eldemo import init_model
 from wikilink import WikiLink
 from wikiinfo import WikiInfo
 from meshmatch import MeshMatch
@@ -29,7 +28,8 @@ def __get_context_span(mention, sent_spans):
     return sent_spans[span_idx_beg][0], sent_spans[span_idx_end][1]
 
 
-def __mention_to_db(dbcursor, dbconn, mention, beg, context, src_doc_path, context_beg):
+def __store_mention(mention, beg, context, src_doc_path, context_beg, dbcursor=None, dbconn=None,
+                    fout_me=None, fout_el=None):
     entity_type = 0
     if mention.mtype == 'PER':
         entity_type = 1
@@ -61,39 +61,67 @@ def __mention_to_db(dbcursor, dbconn, mention, beg, context, src_doc_path, conte
         entity_id += 'W%d' % mention.wid
 
     mlen = mention.span[1] - mention.span[0] + 1
-    try:
-        dbcursor.execute(u"INSERT INTO mentions(beg, len, name_string, entity_type, context"
-                         + u", src_doc_path, context_beg) VALUES (%s, %s, %s, %s, %s, %s, %s)",
-                         (beg, mlen, mention.name, entity_type, context, src_doc_path, context_beg))
-        dbcursor.execute(u"INSERT INTO entity_linking(mention_id, candidates, entity_id) VALUES (LAST_INSERT_ID(),"
-                         + u" %s, %s)", (candidates_str, entity_id))
-        dbconn.commit()
-    except:
-        print 'rolling back'
-        print (beg, mlen, mention.name, entity_type, context, src_doc_path, context_beg)
-        dbconn.rollback()
+    if dbcursor and dbconn:
+        try:
+            dbcursor.execute(u"INSERT INTO mentions(beg, len, name_string, entity_type, context"
+                             + u", src_doc_path, context_beg) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+                             (beg, mlen, mention.name, entity_type, context, src_doc_path, context_beg))
+            dbcursor.execute(u"INSERT INTO entity_linking(mention_id, candidates, entity_id) VALUES (LAST_INSERT_ID(),"
+                             + u" %s, %s)", (candidates_str, entity_id))
+            dbconn.commit()
+        except:
+            print 'rolling back'
+            print (beg, mlen, mention.name, entity_type, context, src_doc_path, context_beg)
+            dbconn.rollback()
+
+    if fout_me:
+        # print type(context)
+        # print context
+        # print context.encode('utf-8')
+        fout_me.write('%d\n%d\n%s\n%s\n%s\n%s\n%d\n\n' % (beg, mlen, mention.name.encode('utf-8'), entity_type,
+                                                          context.encode('utf-8'), src_doc_path, context_beg))
+    if fout_el:
+        fout_el.write('%s\t%s\n' % (candidates_str, entity_id))
 
 
-def __mentions_to_db(mentions, doc_text, sent_spans, dbcursor, dbconn, filepath):
+def __store_mentions(mentions, doc_text, sent_spans, filepath, dbcursor=None, dbconn=None,
+                     fout_me=None, fout_el=None):
     for m in mentions:
         # print m.name, m.mtype, m.mesh_id, m.chebi_id, m.wid
         cb, ce = __get_context_span(m, sent_spans)
         mbeg = m.span[0] - cb
         context = doc_text[cb:ce]
-        __mention_to_db(dbcursor, dbconn, m, mbeg, context, filepath, cb)
+        __store_mention(m, mbeg, context, filepath, cb, dbcursor, dbconn, fout_me, fout_el)
 
 
-def __process_file(dbcursor, dbconn, med_link, sent_detector, filepath):
-    mentions = med_link.mdel(filepath)
+def __process_file(med_link, sent_detector, text_file, ner_file, dbcursor=None, dbconn=None,
+                   fout_me=None, fout_el=None):
+    # mentions = med_link.mdel(filepath)
+    mentions = mentiondetection.clean_ner_result(ner_file)
 
-    fin = open(filepath, 'rb')
+    fin = open(text_file, 'rb')
     doc_text = fin.read()
     doc_text = doc_text.replace('\r\n', '\n')
     doc_text = doc_text.decode('utf-8')
     fin.close()
 
+    med_link.link_mentions(mentions, doc_text)
+
     sent_spans = sent_detector.span_tokenize(doc_text)
-    __mentions_to_db(mentions, doc_text, sent_spans, dbcursor, dbconn, filepath)
+    __store_mentions(mentions, doc_text, sent_spans, text_file, dbcursor, dbconn, fout_me, fout_el)
+
+
+def __init_mellink():
+    word_idf_file = 'e:/data/el/tmpres/demo/word_idf.txt'
+    wiki_candidates_file = 'e:/data/el/tmpres/wiki/dict/name_candidates.pkl'
+    wiki_info_file = 'e:/data/el/tmpres/demo/wiki-all/wiki-info.pkl'
+    links_file = 'e:/data/el/tmpres/demo/wiki-all/links.txt'
+    description_file = 'e:/data/el/tmpres/demo/wiki-all/text.txt'
+
+    wiki_info = WikiInfo(wiki_info_file, links_file, description_file)
+    tfidf = TfIdf(word_idf_file)
+    wiki_link = WikiLink(wiki_candidates_file, wiki_info, tfidf)
+    return MedLink(wiki_info=wiki_info, wiki_link=wiki_link)
 
 
 def __test():
@@ -129,14 +157,22 @@ def __test():
 
 
 def main():
-    conn = MySQLdb.connect('localhost', 'root', 'dhldhl', 'ksstudio', charset='utf8')
-    cursor = conn.cursor()
+    # conn = MySQLdb.connect('localhost', 'root', 'dhldhl', 'ksstudio', charset='utf8')
+    # cursor = conn.cursor()
+    fout_me = open('e:/data/edl/demo/rsv1407-me.txt', 'wb')
+    fout_el = open('e:/data/edl/demo/rsv1407-el.txt', 'wb')
+
     input_file = 'input/rsv1407.txt'
+    ner_file = 'output/rsv1407.txt.ner'
     sent_detector = nltk.data.load('tokenizers/punkt/english.pickle')
-    med_link = init_model()
-    __process_file(cursor, conn, med_link, sent_detector, input_file)
-    conn.close()
+    med_link = __init_mellink()
+    # __process_file(med_link, sent_detector, input_file, cursor, conn)
+    __process_file(med_link, sent_detector, input_file, ner_file, None, None, fout_me, fout_el)
+
+    # conn.close()
+    fout_me.close()
+    fout_el.close()
 
 if __name__ == '__main__':
-    # main()
-    __test()
+    main()
+    # __test()
